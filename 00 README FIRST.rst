@@ -8,8 +8,7 @@ with GDPR/data protection laws.
 
 The deliverables I'm including are:
 
-* `01 GDPR decisions and actions document <01 GDPR decisions and actions document.rst>`_
-
+* `01 Decisions and actions document <01%20Decisions%20and%20actions%20document.rst>`_
   A document detailing my recommendations about our data protection policies,
   including actions already taken, along with my reasons for everything. It
   should be read by the committee, and kept for later reference (especially as
@@ -18,7 +17,7 @@ The deliverables I'm including are:
 
   It's a long document, but I've tried to keep it fairly readable.
 
-* `02 Proposed amendments to CCiW handbook <02 Proposed amendments to CCiW handbook>`_
+* `02 Amendments to CCiW handbook <02%20Amendments%20to%20manual.rst>`_
 
   The main changes are:
 
