@@ -261,6 +261,15 @@ Decisions and recommendations
   design processes that make the most of this. For the most part people should
   be protected from the need to have sensitive data on their own devices.
 
+* For this reason, a large part of the responsibility for understanding and
+  implementing GDPR will fall to the webmaster.
+
+* Website-related security and data protection policies will, as far as
+  possible, be woven into the web developer documentation, which forms part of
+  the source code, and not be a separate document. This is because a good
+  approach to data protection forms an integral part of how the web developers
+  need to build the website software.
+
 * We will minimise the amount of "downloading" of sensitive data that
   can be done on the website.
 
@@ -307,7 +316,6 @@ Decisions and recommendations
 
     * Add https://github.com/ubernostrum/pwned-passwords-django
 
-
 * TODO - Add privacy notice to website
 
   https://ico.org.uk/for-organisations/in-your-sector/charity/charities-faqs/
@@ -335,8 +343,8 @@ Decisions and recommendations
 
 * TODO Find out rules for privacy breach, add to relevant manual
 
-* TODO Links for downloadable private data should prompt regarding privacy when
-  clicked
+* TODO Links for downloadable private data should prompt regarding data
+  protection when clicked
 
 * TODO downloaded camper data XLS should contain cover sheet
   with relevant policy regarding use, especially for medical data.
@@ -352,20 +360,24 @@ Decisions and recommendations
   actually happen:
 
   * CCiW volunteers will forget to check these accounts - they are *unpaid
-    volunteers*, not full time workers, and have to be treated as such.
+    volunteers*, not full time workers, and have to be treated as such, and for
+    most of the year they will get very little if any email on these accounts.
+    It's not realistic to expect them to check those accounts regularly.
 
-  * When @cciw.co.uk mail is not replied to:
+  * When @cciw.co.uk mail is not replied to promptly:
 
-    * other people trying to contact them will try other email addresses.
+    * other people trying to contact us will try other personal email addresses
+      they know (and may have done that anyway - we can't control what addresses
+      other people use to email us)
 
-    * the volunteer will eventually realise that they can use the email
-      providers 'forwarding' feature to forward email to their personal
-      address
+    * volunteers will eventually realise that they can use the email providers
+      'forwarding' feature to forward email to their personal address to stop
+      themselves forgetting.
 
-    And so you end up back where you were, but now with a false sense of
-    security and compliance, and, even worse, you will have some processes
-    that assume we have secure @cciw.co.uk accounts that we can send
-    sensitive data to.
+  * And so you end up back where you were, but now with a false sense of
+    security and compliance, and, even worse, you will have created some
+    processes that assumed we have secure @cciw.co.uk accounts that we could
+    send sensitive data to.
 
   The few @cciw.co.uk email addresses we have at the moment are simply
   "forwarding addresses" which redirect to personal email accounts, and I
