@@ -8,7 +8,7 @@ with GDPR/data protection laws.
 
 The deliverables I'm including are:
 
-* 01 GDPR decisions and actions document.
+* `01 GDPR decisions and actions document <01 GDPR decisions and actions document.rst>`_
 
   A document detailing my recommendations about our data protection policies,
   including actions already taken, along with my reasons for everything. It
@@ -18,12 +18,12 @@ The deliverables I'm including are:
 
   It's a long document, but I've tried to keep it fairly readable.
 
-* 01 Proposed amendments to CCiW handbook
+* `02 Proposed amendments to CCiW handbook <02 Proposed amendments to CCiW handbook>`_
 
   The main changes are:
 
-   * additions to leader responsibilities
-   * a short section on data protection which references other parts and docs.
+  * additions to leader responsibilities
+  * a short section on data protection which references other parts and docs.
 
 * 03 CCiW Website security procedures
 
@@ -36,7 +36,7 @@ The deliverables I'm including are:
 
 * 04 CCiW website security docs
 
-  The links is:
+  The link is:
   https://gitlab.com/cciw/cciw.co.uk/-/blob/master/docs/security.rst
 
   This document is distinct from the previous item:
@@ -51,34 +51,3 @@ The deliverables I'm including are:
 * 05 Data retention policy
 
 * 06 Privacy notice
-
-
-
-Relative to other documents circulated:
-
-* "CCiW Data Protection Policy"
-
-  I'm suggesting that we use extremely little of this, for reasons described above.
-  The equivalent to most of its contents is my "decisions document".
-
-  Many of the things in the document are entirely impractical for us, and would
-  simply never be actioned e.g.:
-
-    39.5 A list (appendix 1) will be kept of locations where data is stored by
-    the CCiW. This will include CCiW hardware and devices, third-party servers,
-    mobile devices, computers and devices owned by volunteers and/or contractors
-    used in accordance with the WOYD policy and physical records.
-
-  Are we actually going to keep a list of the location of every personal device
-  of CCiW leaders? And what about online services - in general the nature of
-  "cloud" computing is that you don't know the location of the computing device.
-  And what would this list actually achieve?
-
-* "Work on Your Own Device" document.
-
-  I'm suggesting we don't have this, because no-one will read it or apply it.
-  Also it kind of gets it backwards - there are no "CCiW devices", and we need
-  to account for that. Instead, we start with processes that protect people from
-  needing to worry about data on their own device, and where this can't be
-  avoided, we prompt people about the need to handle data correctly on their
-  device.

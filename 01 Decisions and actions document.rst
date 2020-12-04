@@ -108,8 +108,21 @@ First - some points about my approach to all of this:
 * Many things that are copied from other people are simply not appropriate for
   our context. For example, larger organisations assume you have "company
   computers", and, perhaps "your own device". For CCiW, none of the computing
-  hardware we use is owned by CCiW. It is often easier to write things from
-  scratch with a knowledge of CCiW and GDPR rather than trying to adapt.
+  hardware we use is owned by CCiW. Many of the things in the document are
+  entirely impractical for us, and would simply never be actioned e.g.:
+
+    39.5 A list (appendix 1) will be kept of locations where data is stored by
+    the CCiW. This will include CCiW hardware and devices, third-party servers,
+    mobile devices, computers and devices owned by volunteers and/or contractors
+    used in accordance with the WOYD policy and physical records.
+
+  Are we actually going to keep a list of the location of every personal device
+  of CCiW leaders? And what about online services - in general the nature of
+  "cloud" computing is that you don't know the location of the computing device.
+  And what would this list actually achieve?
+
+  It is often easier to write things from scratch with a knowledge of CCiW and
+  GDPR rather than trying to adapt.
 
 * Role-specific documents are better than policies for everyone. The majority of
   data protection responsibilities fall on the CCiW web master, so the longest
