@@ -181,7 +181,7 @@ First - some points about my approach to all of this:
   software will automatically complain that no data retention policy has been
   created for these fields, forcing us to ask those questions.
 
-  An example that already exists is the `groups.yaml` file:
+  An example that already exists is the ``groups.yaml`` file:
 
   https://gitlab.com/cciw/cciw.co.uk/-/blob/master/config/groups.yaml
 
@@ -222,23 +222,27 @@ necessary.
 
 
 - 1.1
+  
   - it's about people's data
 
 - 1.2
+  
   - it applies to kind of thing CCiW does.
 
 - 1.3
+  
   - it applies to CCiW because we are in the EU and activities take place in EU.
     Technically we're not in the EU any more due to Brexit, but we assume the same
     rules will hold.
 
 - 1.4
+  
   - we hold "personal data" about people
+    
     - leaders + officers
-      - campers + parents
+    - campers + parents
 
-    Also "Trustees data" and "Land owners and suppliers" that Darren mentioned
-    - how are these held? QUESTION
+    Also "Trustees data" and "Land owners and suppliers" that Darren mentioned - how are these held? QUESTION
 
   - we have a "filing system" - the CCiW website database. QUESTION - any others?
   - we "process" data, and we are a "data controller"
@@ -312,8 +316,10 @@ Decisions and recommendations
   - One for campers/parents
 
   Can be very short, because it mainly says:
+  
   - we do not share any data with 3rd parties
-  - we collect only the necessary data for providing camp activities, namely
+  - we collect only the necessary data for providing camp activities, namely:
+    
     - contact data for people coming on camp
     - health information so we can look after campers while on camp.
     - criminal records/references/etc. to ensure camper safety
