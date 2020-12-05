@@ -16,8 +16,9 @@ First - some points about my approach to all of this:
 
   * https://ico.org.uk/for-organisations/in-your-sector/charity/charities-faqs/
 
-  I've read all the relevant sections of these. These documents are not actually
-  very long.
+  * https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/
+
+  I've read the relevant sections of these.
 
 * I've also read all the other materials prepared so far, for reference:
 
@@ -61,9 +62,9 @@ First - some points about my approach to all of this:
 * In terms of human psychology, first of all: most people would rather drink a
   pint of lava than read a long data protection policy. Of all the hundreds of
   times that you have claimed "I have read the terms and conditions", how many
-  times have you actually read them? That's right, zero. Asking people to stop
-  what they are doing to read a long doc and tick a box to say they have done so
-  is just asking them to lie.
+  times have you actually read them?. Asking people to stop what they are doing
+  to read a long doc and tick a box to say they have done so is just asking them
+  to lie.
 
 * The one time I actually read a computer use policy was when I had begun
   working for a software development company in Leeds. Due to a planning
@@ -71,7 +72,7 @@ First - some points about my approach to all of this:
   actually read the policies. I then attempted to apply them, and found it
   almost impossible to do so, because parts of them were so impractical. Within
   the first day I gave up. I concluded I should do what everyone else was
-  doing - ignore the policy, which is what I did from then on.
+  doing - ignore the policy. That was the last time I thought about it.
 
 * The reason we don't lose sleep over all those online lies we've been telling
   is that we correctly understand those checkboxes as "transactional
@@ -129,14 +130,14 @@ First - some points about my approach to all of this:
   document is the "CCiW Website security policies", which already existed and
   has been updated.
 
-  We also need specific guidance for the booking secretary.
+  We also need specific guidance for the booking secretary and DBS officer.
 
 * We should start with our **existing processes and people**, and see where
   things need tightening. In a very small organisation like ours, the current
   division of labour should be our guide as to who probably has the knowledge to
   know how to write a policy. As web master I should basically be responsible
   for our security and data protection requirements, and I'll work closely with
-  Rebecca to produce something for her.
+  Rebecca and Becky to produce something for them.
 
   The outdated password rules I mentioned above also highlight the fact that we
   should not be writing rules that we're not qualified to write - we should be
@@ -148,7 +149,6 @@ First - some points about my approach to all of this:
   2. Officer Team data inc.  Set up & take down teams
   3. Trustees data
   4. Land owners and suppliers
-
 
   Item 3 is the most easily dealt with - I think it almost all be public data
   (it has to be given to Charities Commission, and displayed on their website,
@@ -222,23 +222,23 @@ necessary.
 
 
 - 1.1
-  
+
   - it's about people's data
 
 - 1.2
-  
+
   - it applies to kind of thing CCiW does.
 
 - 1.3
-  
+
   - it applies to CCiW because we are in the EU and activities take place in EU.
     Technically we're not in the EU any more due to Brexit, but we assume the same
     rules will hold.
 
 - 1.4
-  
+
   - we hold "personal data" about people
-    
+
     - leaders + officers
     - campers + parents
 
@@ -255,6 +255,9 @@ necessary.
 Decisions and recommendations
 -----------------------------
 
+General
+~~~~~~~
+
 * We'll start from the premise that in CCiW, when it comes to computers,
   everyone is using their own "device". The only system that is easy for us to
   secure is the central CCiW database that is part of the website. We should
@@ -262,7 +265,7 @@ Decisions and recommendations
   be protected from the need to have sensitive data on their own devices.
 
 * For this reason, a large part of the responsibility for understanding and
-  implementing GDPR will fall to the webmaster.
+  implementing GDPR will fall to the web master/web developers.
 
 * Website-related security and data protection policies will, as far as
   possible, be woven into the web developer documentation, which forms part of
@@ -275,85 +278,40 @@ Decisions and recommendations
 
   * only leaders will be able to download camper data. STATUS DONE (since the beginning)
 
-  * we will train leaders at the point of download with rules about use
-    of this data TODO.
+  * we will train leaders at the point of download with rules about use of this
+    data TODO.
+
+
+Data Protection Officer
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* Do we need to appoint a DPO (Data Protection Officer)? **NO**
+
+  See https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-officers/#ib1
+
+     Under the GDPR, you must appoint a DPO if:
+
+     * you are a public authority or body (except for courts acting in their judicial capacity);
+     * your core activities require large scale, regular and systematic monitoring of individuals (for example, online behaviour tracking); or
+     * your core activities consist of large scale processing of special categories of data or data relating to criminal convictions and offences.
+
+  The closest we get is point 3 (due to health information and criminal records
+  information), but our scale is very low.
+
+* Should we appoint one anyway? **NO**
+
+  We can if we want. The duties remain the same even if it is not mandatory,
+  however, and we do not have the resources to provide someone with sufficient
+  expertise for the duties involved in being a DPO (see the page linked).
+
+Use of email
+~~~~~~~~~~~~
 
 * We will not email sensitive data:
 
-  * Status DONE - several years ago we switched from emailing application forms
+  * Status: DONE - several years ago we switched from emailing application forms
     and references to instead sending email notifications and allowing them
     to be viewed online.
-
-* Online authentication systems and password rules and login
-
-  We will use * `NIST Special Publication 800-63B
-  <https://pages.nist.gov/800-63-3/sp800-63b.html>`_ as a general reference
-  standard for securing digital identity. This is a modern, pragmatic set of
-  guidelines that are widely used in the industry.
-
-  While the data CCiW holds is sensitive, we are relatively low risk in terms of
-  expecting cyber attacks. This is because we hold, relatively speaking, a very
-  small amount of data, and the data has no immediate monetisation
-  possibilities, making us very unlikely to be specifically targeted.
-
-  Therefore, we have adopted the following minimum levels:
-
-  * General CCiW staff authenticating to the CCiW website: Authenticator
-    Assurance Level 1 (see NIST document)
-
-  * Webmaster authentication to systems that give access to the site:
-    Authenticator Assurance Level 1 (see NIST document)
-
-  * Campers/bookers: a level equivalent to AAL1, but implemented using a
-    password-less system which improves security and user experience, as
-    described `here
-    <https://lukeplant.me.uk/blog/posts/a-simple-passwordless-email-only-login-system/>`_.
-
-  Most of these have been in place a long time, but some additions have been
-  made recently:
-
-  * TODO - Apply NIST-800-63B  § 5.1.1.2
-
-    * Add https://github.com/ubernostrum/pwned-passwords-django
-
-* TODO - Add privacy notice to website
-
-  https://ico.org.uk/for-organisations/in-your-sector/charity/charities-faqs/
-
-  - One for officers
-  - One for campers/parents
-
-  Can be very short, because it mainly says:
-  
-  - we do not share any data with 3rd parties
-  - we collect only the necessary data for providing camp activities, namely:
-    
-    - contact data for people coming on camp
-    - health information so we can look after campers while on camp.
-    - criminal records/references/etc. to ensure camper safety
-
-* TODO Register with ICO?
-
-* TODO Create "Appropriate Policy Document"
-
-* TODO Retention Policy
-
-  - write it down as a machine readable document in the CCiW source code
-  - implement it in terms of wiping data from CCiW database
-
-* TODO Find out rules for privacy breach, add to relevant manual
-
-* TODO Links for downloadable private data should prompt regarding data
-  protection when clicked
-
-* TODO downloaded camper data XLS should contain cover sheet
-  with relevant policy regarding use, especially for medical data.
-
-* Review TODO items in website security document
-
-* ACTION DONE: Move source code to GitLab, and correct in source code and other
-  documents. This makes it easy for people to see our source code, including
-  data retention policy.
 
 * Use of "@cciw.co.uk" email accounts (using a provider like Google or
   Microsoft 365) is NOT recommended. We have to take into account what will
@@ -388,10 +346,102 @@ Decisions and recommendations
   years. We may need to tighten some things regarding telling leaders what they
   can and can't do with list of camper data etc.)
 
+
+Online authentication systems and passwords
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* We will use `NIST Special Publication 800-63B
+  <https://pages.nist.gov/800-63-3/sp800-63b.html>`_ as a general reference
+  standard for securing digital identity. This is a modern, pragmatic set of
+  guidelines that are widely used in the industry.
+
+  While the data CCiW holds is sensitive, we are relatively low risk in terms of
+  expecting cyber attacks. This is because we hold, relatively speaking, a very
+  small amount of data, and the data has no immediate monetisation
+  possibilities, making us very unlikely to be specifically targeted.
+
+  Therefore, we have adopted the following minimum levels:
+
+  * General CCiW staff authenticating to the CCiW website: Authenticator
+    Assurance Level 1 (see NIST document)
+
+  * Webmaster authentication to systems that give access to the site:
+    Authenticator Assurance Level 1 (see NIST document)
+
+  * Campers/bookers: a level equivalent to AAL1, but implemented using a
+    password-less system which improves security and user experience, as
+    described `here
+    <https://lukeplant.me.uk/blog/posts/a-simple-passwordless-email-only-login-system/>`_.
+
+  Most of these have been in place a long time, but some additions have been
+  made recently:
+
+  * Apply NIST-800-63B  § 5.1.1.2
+
+    * Require 8 character min and add "compromised passwords" checker
+      `pwned-passwords-django
+      <https://github.com/ubernostrum/pwned-passwords-django>`_ - DONE in
+      `583a6d00
+      <https://gitlab.com/cciw/cciw.co.uk/-/commit/583a6d00504a05cded071e7e04ea7c79b3bfd40a>`_
+
+
+
+Data retention etc.
+~~~~~~~~~~~~~~~~~~~
+
 * TODO QUESTION - in officer application form, what do we need address and
   employee data for? Should we remove them?
+
+* TODO Retention Policy
+
+  - write it down as a machine readable document in the CCiW source code
+  - implement it in terms of wiping data from CCiW database
+
+
+Security tightening and consolidation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * TODO new AWS account for CCIW, instead of my personal one.
 
   - use for AWS S3 backups
-  - recreate AWS SES config using this account
+  - recreate AWS SES config (email) using this account
+  - possible move everything off Mailgun
+
+Uncategorised
+~~~~~~~~~~~~~
+
+* TODO - Add privacy notice to website
+
+  https://ico.org.uk/for-organisations/in-your-sector/charity/charities-faqs/
+
+  - One for officers
+  - One for campers/parents
+
+  Can be very short, because it mainly says:
+
+  - we do not share any data with 3rd parties
+  - we collect only the necessary data for providing camp activities, namely:
+
+    - contact data for people coming on camp
+    - health information so we can look after campers while on camp.
+    - criminal records/references/etc. to ensure camper safety
+
+* TODO Register with ICO?
+
+* TODO Create "Appropriate Policy Document" (for health and criminal records data)
+
+* TODO Contact Becky about her DBS processes
+
+* TODO Find out rules for privacy breach, add to relevant manual
+
+* TODO Links for downloadable private data should prompt regarding data
+  protection when clicked
+
+* TODO downloaded camper data XLS should contain cover sheet
+  with relevant policy regarding use, especially for medical data.
+
+* Review TODO items in website security document
+
+* ACTION DONE: Move source code to GitLab, and correct in source code and other
+  documents. This makes it easy for people to see our source code, including
+  data retention policy.
