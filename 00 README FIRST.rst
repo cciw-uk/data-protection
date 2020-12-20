@@ -30,10 +30,15 @@ The deliverables I'm including are:
   The link is:
   https://gitlab.com/cciw/cciw.co.uk/-/blob/master/docs/security.rst
 
-  This document is distinct from the previous item:
+  This is part of the CCIW webmaster's manual, and includes information about
+  security, privacy, data protection and data retention. As a lot of the GDPR
+  responsibilities fall on the web master, this contains the longest section
+  explicitly on data protection principles.
 
-  * it is part of the source code that the developers read
-  * it is therefore public
+  Note:
+
+  * it is part of the source code/documentation that the web developers read
+  * it is therefore public, as all our source code is.
   * the audience is the web master/developers.
 
   I will include a copy of the most recent version when submitting this
@@ -46,7 +51,10 @@ The deliverables I'm including are:
   The link is:
   https://docs.google.com/document/d/1_Ox8wWfqA73vqN66yEQRSASuKxtrFkcftJa5oFytiPc/edit
 
-  This should be visible only to committee members, let me know if you can't access it.
+  This document is distinct from the previous one to allow it to include private
+  information that shouldn't be a part of our public source code.
+
+  It should be visible only to committee members, let me know if you can't access it.
   A copy of the most recent version is included. The document has been around a while but
   has been updated and completed as part of this work.
 

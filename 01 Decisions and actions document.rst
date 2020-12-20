@@ -2,6 +2,9 @@
 This document is a list of decisions/recommendations and actions taken when
 applying GDPR.
 
+It currently has a lot of ``STATUS:TODO`` items - these will hopefully progress
+to ``STATUS:DONE``.
+
 Approach
 --------
 
@@ -23,8 +26,8 @@ First - some points about my approach to all of this:
 * I've also read all the other materials prepared so far, for reference:
 
   1. Information_Audit_CCiW May2018.docx (from Rebecca)
-  2. CCiW Data Protection Policy.docx (derived from EMW as far as I know.) TODO
-  3. CCiW Working on your own device policy.docm (WOYD, from EMW)  TODO
+  2. CCiW Data Protection Policy.docx (derived from EMW as far as I know.) ``STATUS:WIP``
+  3. CCiW Working on your own device policy.docm (WOYD, from EMW)  ``STATUS:WIP``
 
   The recommendations I'm making are intended to completely replace 2 and 3
   in terms of policy documents.
