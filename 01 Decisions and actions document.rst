@@ -203,11 +203,11 @@ First - a fairly long section about my approach to all of this:
   deployment checks will automatically complain that no data retention policy
   has been created for these fields, forcing us to ask those questions.
 
-  An example of something like this that already exists is the ``groups.yaml``
+  An example of something like this that already exists is the ``static_roles.yaml``
   file, which is machine readable, "human readable" (ish - I could improve
   this), plus has comments with extra explanation:
 
-  https://gitlab.com/cciw/cciw.co.uk/-/blob/master/config/groups.yaml
+  https://gitlab.com/cciw/cciw.co.uk/-/blob/master/config/static_roles.yaml
 
   This should be the **only** document for this, to help ensure that we don't
   have a disconnect between what we want our policy to be, and what it actually
