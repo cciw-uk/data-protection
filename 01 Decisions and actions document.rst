@@ -380,7 +380,8 @@ Data Protection Officer
 
 * Do we need to appoint a DPO (Data Protection Officer)? **NO**
 
-  See https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-officers/#ib1
+  See `Do we need to appoint a Data Protection Officer
+  <https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-officers/#ib1>`_
 
      Under the GDPR, you must appoint a DPO if:
 
@@ -389,14 +390,38 @@ Data Protection Officer
      * your core activities consist of large scale processing of special categories of data or data relating to criminal convictions and offences.
 
   The closest we get is point 3 (due to health information and criminal records
-  information), but our scale is very low.
+  information), but it is certainly not a "core activity" (see `What is a core
+  activity
+  <https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-officers/#ib3>`_)
+  and our scale is very low.
 
 * Should we appoint one anyway? **NO**
 
-  We can if we want. However, the duties remain the same even if it is not
-  mandatory, and we do not have the resources to provide someone with sufficient
-  expertise for the duties involved in being a DPO, let alone the time (see the
-  page linked).
+  We can if we want. However:
+
+      If you decide to voluntarily appoint a DPO you should be aware that the
+      same requirements of the position and tasks apply had the appointment been
+      mandatory.
+
+  And the bar is not low:
+
+      The DPO must be independent, an expert in data protection, adequately
+      resourced, and report to the highest management level.
+
+  In our case, due to the small size of our organisation, we wouldn't be able to
+  provide anyone from within CCiW who was either “an expert in data protection”
+  or “independent”. Under `Can we assign other tasks to the DPO?
+  <https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-officers/#ib8>`_:
+
+      The GDPR says that you can assign further tasks and duties, so long as
+      they don’t result in a conflict of interests with the DPO’s primary tasks.
+
+
+      …the DPO shouldn’t be expected to manage competing objectives that could
+      result in data protection taking a secondary role to business interests.
+
+  That probably rules out most people already involved in CCiW. We could
+  possibly pay someone externally, but most likely don't have the funds.
 
 Use of email
 ~~~~~~~~~~~~
