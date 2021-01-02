@@ -312,22 +312,24 @@ GDPR notes
 Notes I've made while reading the GDPR. You can skim this, refer back to it as
 necessary.
 
+Chapter 1
+~~~~~~~~~
 
-- 1.1
+- Article 1
 
   - it's about people's data
 
-- 1.2
+- 2
 
   - it applies to the kind of thing CCiW does.
 
-- 1.3
+- 3
 
   - it applies to CCiW because we are in the EU and activities take place in EU.
     (Technically we're not in the EU any more due to Brexit, but we assume the same
     rules will hold).
 
-- 1.4
+- 4
 
   - we hold "personal data" about people
 
@@ -343,6 +345,248 @@ necessary.
   - we don't do "cross-border processing"
 
 
+Chapter 2
+~~~~~~~~~
+    
+- Article 5 - Principles
+
+  1. Personal data must be
+  
+     a. processed lawfully ‘lawfulness, fairness and transparency’ 
+
+     b. 'purpose limitation' - We may need to explicitly specify purposes of collected data
+
+     c. 'data minimisation' - must be 'adequate' for purposes, but not more.
+
+     d. 'accuracy' - includes keeping up to date, w.r.t. "the purposes for which they
+        are processed". So, we don't keep old medical records "up to date", but we
+        have a separate record for each year the camper comes, and they update
+        them before coming on camp. So we are in compliance here.
+
+     e. 'storage limitation'
+
+        Language implies that where data is anonymised, it ceases to be personal
+        data and different rules apply
+
+     f. 'integrity and confidentiality' i.e security
+
+        Includes "accidental loss" and destruction as things we should protect
+        against, which has implications for things like encryption (e.g. if you
+        encrypt and lose the keys, then you have lost the data).
+
+  2. 'accountability' Need to be able to demonstrate compliance, which means
+     documenting our processes.
+
+- Article 6 - Lawfulness of processing
+
+  1. At least one of the following must be satisfied for data processing
+     to be lawful.
+
+     a. consent
+
+     b. necessary for contractual obligation
+
+     c. necessary for legal obligation
+
+     d. necessary for protecting vital interests of someone
+
+     e. necessary for public interest or official authority
+
+     f. necessary for "legitimate interest"
+
+  2. Adaptations by EU member states
+
+  3. c. and e. above have basis in other EU/state lawas
+
+  4. If processing for a different purpose than the stated one for collection,
+     without 'consent', then to determine if it is "compatible" processing,
+     you have to take into account other factors (listed)
+
+     We can avoid some of the complexities of working out exactly what
+     this means by limiting the processing of data as much as possible,
+     e.g. by basing everything on contractual obligations or consent, and
+     making clear exactly what we'll process data for.
+
+- Article 7 - Conditions for consent
+
+  If you are relying on 'consent' as basis, there are lots of extra rules.
+
+  - written declarations have got to be clear and accessible in language
+
+  - you can't require people to give consent for some purpose as a condition
+    of a contract in which that purpose is not necessary. e.g. you can't say
+    "you can only buy this product if you agree to your details being passed onto
+    some other group. Do you agree to your details being passed onto them."
+
+  We can avoid a lot of these complexities by not relying on consent as much as
+  possible.
+
+- Article 8 - About consent w.r.t. children
+
+  - For children under 16, we have to get consent from parents instead of the child.
+
+- Article 9 - Special categories
+
+  Prohibition/limitation on processing certain types of personal information, including, relevant
+  to us:
+
+  * data concerning health
+  * religious or philosophical beliefs
+
+  To process these, you can't rely on the whole list of options in 6.1, you must have:
+
+  a. consent
+
+  b. necessity for certain obligations/rights, including area of employment and safeguarding.
+
+  c. necessary for vital interests.
+
+  d. for non-for-profit bodies, if it relates to members of the body, and
+
+  e. knowledge made public
+
+  f. defence of legal claims, court use
+
+  g. reasons of substantial public interest
+
+  h. various health reasons of individual
+
+  i. public health concerns
+
+  j. archiving purpose in public interest
+
+
+- Article 10 - Data relating to criminal convictions
+
+  Must be done under control/authority of UK law
+
+- Article 11 - Processing which does not require identification
+
+
+Chapter 3 Rights of the data subject
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Article 12
+
+  1. Clearness of language/communication
+
+  2. We can't refuse to grant data subjects their rights, unless
+     we can show that we can't identify the subject. This has relevance
+     for processes regarding disclosing information in requests for info
+     i.e. how we determine if it's really coming from the person claimed.
+
+  3. About delays allowed
+
+  5. Charges, dealing with unreasonable requests
+
+  6. Identification of person asking for information etc.
+
+  7. Use of icons and machine-readable data regarding Art. 13, 14
+
+
+- Article 13 - Information to be provided where personal data are collected from
+  the data subject
+
+  1. When collecting info from people, we need to make clear
+     the purposes and lawful basis of our use of that data,
+     and who will receive the data.
+
+  2. We must tell people about our retention policy when collecting data, plus
+     other info about their rights. ``STATUS:TODO`` quite a few additions to our
+     forms are necessary here.
+
+- Article 14 - Information to be provided where personal data have not been
+  obtained from the data subject
+
+  This has particular relevance to our collecting of references.
+
+  On the officer application form, in the section about referees name we many
+  need to include more information about what information we will obtain from
+  the referee, the legal basis, and about their rights concerning this data.
+  ``STATUS:TODO``
+
+
+- Article 15 - Right of access by the data subject
+
+  The data subject has rights to see the personal data about them, and various
+  other pieces of info, such as the purposes etc. We can fulfil these
+  obligations in most cases by providing them with explanations up front. Some
+  things could be fulfilled by an appropriate page on the website that would
+  allow a subject to download information about them.
+
+  The biggest concern here is what we do about references. These could easily
+  contain things that the referee would not want to be disclosed - if the
+  referee provides information about an officer being unsuitable for camp work,
+  they may not want that to be shared with the officer, and the knowledge that
+  it could be shared might compromise the reliability of the reference. We may
+  need specific legal advice on this.
+
+  
+- Article 16 - Right to rectification
+
+- Article 17 - Right to erasure (‘right to be forgotten’)
+
+  1.a. when data is no longer necessary for our purposes, the data subject
+  has a right to erasure.
+
+  For our purposes, there are various pieces of data that we made need to keep
+  long term, including:
+
+  - list of campers on each camp. In the case of an allegation being made in the future,
+    we made need complete lists of campers who actually attended camps, along with
+    list of officers.
+
+  - to demonstrate due diligence in our selection of officers, we may need to keep
+    references about them and some information about criminal records checks.
+
+  Paragraph 3 also gives further exceptions that may apply to us, specifically
+  3.e. “for the establishment, exercise or defence of legal claims.”
+
+  We may need to confirm these things with an expert.
+
+- Article 18 - Right to restriction of processing
+
+  Very little here applies to us since most of our information is obtained
+  from the data subject, and our "processing" of the data is very limited
+  in nature (mostly "storage").
+
+- Article 19 - Notification obligation regarding rectification or erasure of
+  personal data or restriction of processing
+
+  We have to pass on rectification/erasure change to those people who received
+  the data, in our case very few people outside CCiW, if any, are given our
+  data.
+
+- Article 20 - Right to data portability
+
+  When providing downloadable data to people, we need to use a commonly
+  used data format that allows for machine processing.
+
+
+- Article 21 - Right to object
+
+  Specifically, data subjects can object to processing based on 6.e and 6.f i.e.
+  "legitimate interest" or public interest. For us, this means that they can
+  object to being put on an advertising mailing list (which we can do based
+  on legitimate interest). We need to honour their opt-out request.
+
+  We need to work out how we best implement that, in order to avoid accidentally
+  putting them back on in the future.
+
+
+- Article 22 - Automated individual decision-making, including profiling
+
+  We basically don't do this, apart from a few cases where the exceptions listed
+  apply to us. For example, based on birth date we exclude campers from
+  attending camp (they are prevented from booking) but that is a necessary part
+  of fulfilling our contracts.
+
+- Article 23 - Restrictions
+
+  "Member States" e.g. UK, can reduce the scope of some of the requirements.
+
+- Article 24 - Responsibility of the controller
+  
 Decisions and recommendations
 -----------------------------
 
@@ -370,6 +614,8 @@ General
   can be done on the website.
 
   * only leaders will be able to download camper data. ``STATUS:DONE`` (since the beginning)
+
+  * only leaders will be able to view officer data. ``STATUS:DONE`` (since the beginning)
 
   * we will train leaders at the point of download with rules about use of this
     data ``STATUS:TODO``.
@@ -568,3 +814,7 @@ Uncategorised
 * Move source code to GitLab, and correct in source code and other
   documents. This makes it easy for people to see our source code, including
   data retention policy.  ``STATUS:DONE``
+
+
+* ``STATUS:TODO`` Decide policy on external storage devices
+
