@@ -86,9 +86,9 @@ First - a fairly long section about my approach to all of this:
 * The reason we don't lose sleep over all those online lies we've been telling
   is that we correctly understand those checkboxes as "transactional
   interactions", in which, like in many other circumstances, such as when your
-  wife asks you if her clothes make her look fat, truthfulness is neither
-  expected nor desired. Also because of experiences of policy documents like the
-  one I recounted.
+  gran asks you whether you like the jumper she knitted you, truthfulness is
+  neither expected nor desired. Also because of experiences of policy documents
+  like the one I recounted.
 
   "Yes I've read the document" checkboxes are therefore the **worst** possible
   model of how to do this kind of thing **if you actually want to convey
