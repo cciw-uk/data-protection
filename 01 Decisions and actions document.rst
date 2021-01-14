@@ -309,11 +309,11 @@ competence to make decisions regarding security of computer systems.
 GDPR notes
 ----------
 
-Notes I've made while reading the GDPR. You can skim this, refer back to it as
-necessary.
+Notes I've made while reading the GDPR. You can skip or skim this whole section,
+refer back to it as necessary.
 
-Chapter 1
-~~~~~~~~~
+Chapter 1 - General Provisions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Article 1
 
@@ -338,21 +338,22 @@ Chapter 1
 
     Also "Trustees data" and "Land owners and suppliers" that Darren mentioned - how are these held? QUESTION
 
-  - we have a "filing system" - the CCiW website database. QUESTION - any others?
+  - we have a "filing system" - the CCiW website database. ``STATUS:QUESTION`` -
+    any others?
   - we "process" data, and we are a "data controller"
   - we do not store "genetic data" or "biometric data"
   - we do store "data concerning health"
   - we don't do "cross-border processing"
 
 
-Chapter 2
-~~~~~~~~~
-    
+Chapter 2 - Principles
+~~~~~~~~~~~~~~~~~~~~~~
+
 - Article 5 - Principles
 
   1. Personal data must be
-  
-     a. processed lawfully ‘lawfulness, fairness and transparency’ 
+
+     a. processed lawfully ‘lawfulness, fairness and transparency’
 
      b. 'purpose limitation' - We may need to explicitly specify purposes of collected data
 
@@ -463,8 +464,8 @@ Chapter 2
 - Article 11 - Processing which does not require identification
 
 
-Chapter 3 Rights of the data subject
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Chapter 3 - Rights of the data subject
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Article 12
 
@@ -521,7 +522,7 @@ Chapter 3 Rights of the data subject
   it could be shared might compromise the reliability of the reference. We may
   need specific legal advice on this.
 
-  
+
 - Article 16 - Right to rectification
 
 - Article 17 - Right to erasure (‘right to be forgotten’)
@@ -585,15 +586,216 @@ Chapter 3 Rights of the data subject
 
   "Member States" e.g. UK, can reduce the scope of some of the requirements.
 
+
+Chapter 4 - Controller and processor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 - Article 24 - Responsibility of the controller
+
+  As well as being required to implement the technical measures needed for
+  compliance, we need to be able to "demonstrate" compliance. For this, being
+  able to show our manuals and the web site source code will be helpful.
+
+  It also notes, paragraph 1, the need to "take into account..the risks of
+  varying likelihood and severity for the rights and freedoms of natural
+  persons". This means we can and should be sensible about the actual kinds of
+  risks that CCiW is likely to face. For example, the risks associated with not
+  having medical forms available when needed (because they are, say, locked in a
+  safe and the person with the key is not present), are much, much higher than
+  the risks associated with a camper's medical form being accessible to too many
+  people.
+
+- Article 25 - Data protection by design and by default
+
+  1. Use of data protection techniques
+
+  2. By default we only use necessary data and don't make it public
+
+  The technical things needed for this are already in place in our website - we
+  don't make the database open to all, for example, but on a need to know basis
+  using authentication.
+
+  Use of a data retention policy that is automatically checked for exhaustiveness
+  will also help us remain compliant - if we add a database column, it will
+  immediately force us to ask if we need it, how long we need it for etc.
+
+- Article 26 - Joint controllers
+
+  Doesn't apply to us as far as I can see.
+
+
+- Article 27 - Representatives of controllers or processors not established in
+  the Union
+
+  Doesn't apply to us.
+
+- Article 28 - Processor
+
+  We need to be careful about who we pass on data to. Currently we have very
+  limited use of 3rd parties via the website. ``STATUS:QUESTION`` Are there
+  other people that we pass data on to?
+
+- Article 29 - Processing under the authority of the controller or processor
+
+- Article 30 - Records of processing activities
+
+  1. We need to maintain a "record of processing activities". This probably
+     needs to be a single document. It's possible that our web site data
+     retention policy will be able to function as this document, if slightly
+     expanded. ``STATUS:TODO``
+
+  5. There are exemptions for some groups, but it probably doesn't apply to us:
+
+     While we are less than 250 employees in the organisation, we do process
+     some special category data, and data relating to criminal convictions,
+     even if at very low scale.
+
+- Article 31 - Cooperation with the supervisory authority
+
+- Article 32 - Security of processing
+
+  1. b) and c) include the need for ongoing "availability" of data, which has to
+     put alongside other things like encryption in part a). This means we have
+     to weigh risks associated with encryption that could cause loss of
+     availability (if you lose the encryption keys, the data is gone).
+
+
+- Article 33 - Notification of a personal data breach to the supervisory authority
+
+  Exactly what constitutes a data breach and when you need to contact ICO seems
+  to be one of the most fuzzy subjects, but there is quite a lot of help here:
+
+  - https://ico.org.uk/for-organisations/guide-to-dp/guide-to-the-uk-gdpr/personal-data-breaches/
+  - https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breach-examples/
+  - https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach-assessment/
+
+  We will need to add training on this to various manuals. ``STATUS:TODO``
+
+  5. We need to set up a process for documenting data breaches and their
+     handling.
+
+
+- Article 34 - Communication of a personal data breach to the data subject
+
+  - Note that the conditions for reporting to data subjects are different to
+    reporting to ICO. It is very likely that data breaches we might suffer will
+    fall under the exceptions given.
+
+- Article 35 - Data protection impact assessment
+
+  We need to do these DPIA for the data we hold.
   
+  It is very unlikely that we will need or want to do processing of a type
+  that needs an impact assessment as per the description in paragraph 3.
+
+- Article 36 - Prior consultation
+
+
+- Article 37 - Designation of the data protection officer
+
+  We don't need to do this, and shouldn't - see below.
+
+- Article 38 - Position of the data protection officer
+
+  Not relevant
+
+- Article 39 - Tasks of the data protection officer
+
+  Not relevant
+
+- Article 40 - Codes of conduct
+
+  Largely irrelevant for us at the moment because:
+  
+      "There are no approved UK GDPR codes of conduct at the moment, but we are
+      actively working with various sector bodies and associations to assist
+      them in developing codes of conduct and are keen to talk to others who may
+      be considering development of a code."
+
+   https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/codes-of-conduct-detailed-guidance/ico-register-of-uk-gdpr-codes-of-conduct/
+
+   It's unlikely that an approved code of conduct will be established for a
+   sector that is appropriate for us, given our small size as an organisation.
+
+- Article 41 - Monitoring of approved codes of conduct
+
+  Not relevant due to the above
+
+- Article 42 - Certification
+
+  Probably not relevant to us - it's very unlikely there will certification
+  mechanisms appropriate for us.
+
+- Article 43 - Certification bodies
+
+  Ditto
+
+Chapter 5 - Transfers of personal data to third countries or international organisations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Largely not relevant to us - we don't transfer personal data to other people.
+
+Chapter 6 - Independent supervisory authorities
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Relates to bodies in member states (e.g. ICO in the UK), and their duties
+
+Chapter 7 - Cooperation and consistency
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How bodies in member states cooperate with EU etc. Not relevant to us
+
+
+Chapter 8 - Remedies, liability and penalties
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Article 77 - Right to lodge a complaint with a supervisory authority
+
+  Every data subject in the UK has a right to complain to ICO concerning
+  violations of GDPR.
+
+- Article 80 - Representation of data subjects
+
+  People can use other (specified) organisation to represent them in these
+  things.
+
+- Article 82 - Right to compensation and liability
+
+Chapter 9 - Provisions relating to specific processing situations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Very little of relevance to us here.
+
+Chapter 10 - Delegated acts and implementing acts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Very little of relevance to us here.
+
+Chapter 11 Final provisions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Very little of relevance to us here.
+
+
 Decisions and recommendations
 -----------------------------
 
 General
 ~~~~~~~
 
-* We'll start from the premise that in CCiW, when it comes to computers,
+* We should, as a default attitude, aim to limit the amount of personal data we
+  collect to the things that are essential (or very useful) for doing our job
+  well in terms of looking after campers and running CCiW. Our default mindset
+  should be "don't collect it" rather than "find a justification for
+  collecting/keeping it".
+
+  For example, analytics trackers on websites (such as Google Analytics) have a
+  variety of privacy concerns, and, for our usage, such analytics is of very
+  limited value. So we don't use these services. (Instead we have some limited
+  log-based analytics on our own servers that don't have any privacy concerns -
+  much more basic than what Google Analytics provides, but that's fine for us).
+
+* We should start from the premise that in CCiW, when it comes to computers,
   everyone is using their own "device". The only system that is easy for us to
   secure is the central CCiW database that is part of the website. We should
   design processes that make the most of this centrally controllable database,
@@ -605,8 +807,8 @@ General
   implementing GDPR will fall to the web master/web developers.
 
 * Website-related security and data protection policies will, as far as
-  possible, be woven into the web developer documentation, which forms part of
-  the source code, and not be a separate document. This is because a good
+  possible, be woven into the web developer documentation, which is in the
+  source code repository, and not in separate documents. This is because a good
   approach to data protection forms an integral part of how the web developers
   need to build the website software.
 
@@ -620,6 +822,16 @@ General
   * we will train leaders at the point of download with rules about use of this
     data ``STATUS:TODO``.
 
+
+Risks
+~~~~~
+
+
+Attack vectors
+~~~~~~~~~~~~~~
+
+TODO need a general section outlining where we face our biggest risks and likely
+attack vectors.
 
 Data Protection Officer
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -662,7 +874,6 @@ Data Protection Officer
       The GDPR says that you can assign further tasks and duties, so long as
       they don’t result in a conflict of interests with the DPO’s primary tasks.
 
-
       …the DPO shouldn’t be expected to manage competing objectives that could
       result in data protection taking a secondary role to business interests.
 
@@ -678,9 +889,9 @@ Use of email
     forms and references to instead sending email notifications and allowing
     them to be viewed online.
 
-* Use of "@cciw.co.uk" email accounts (using a provider like Google or
-  Microsoft 365) is NOT recommended. We have to take into account what will
-  actually happen:
+* We should not use of "@cciw.co.uk" email **accounts** (using a provider like
+  Google or Microsoft 365). We have to take into account what will actually
+  happen:
 
   * CCiW volunteers will forget to check these accounts - they are *unpaid
     volunteers*, not full time workers, and have to be treated as such, and for
@@ -693,7 +904,7 @@ Use of email
     * other people trying to contact us will try other personal email addresses
       they know (and may have done that anyway - we can't control what addresses
       other people use to email us, and we tend to know a lot of campers and
-      their parents personally)
+      their parents personally).
 
     * CCiW volunteers will eventually realise that they can use the email
       providers 'forwarding' feature to forward email to their personal address
@@ -711,7 +922,7 @@ Use of email
 
   (``STATUS:DONE`` This is already current practice on the website and has been
   for several years. We may need to tighten some things regarding telling
-  leaders what they can and can't do with list of camper data etc.)
+  leaders what they can and can't do with lists of camper data etc.)
 
 
 Online authentication systems and passwords
@@ -751,6 +962,33 @@ Online authentication systems and passwords
       ``STATUS:DONE`` in `583a6d00
       <https://gitlab.com/cciw/cciw.co.uk/-/commit/583a6d00504a05cded071e7e04ea7c79b3bfd40a>`_
 
+    * For existing accounts, we may want to improve password strength,
+      especially for users who have elevated access. We need to add some
+      controls that force those users to go through the 'choose password'
+      process. (We cannot check existing passwords meet criteria, because we
+      don't know what they are - as per best practices, we don't store passwords
+      but only password hashes). ``STATUS:TODO``
+
+Data Protection Impact Assessment (DPIA)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We need to do this in some form for all the data we hold and use.
+
+See https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/data-protection-impact-assessments-dpias/what-is-a-dpia/
+
+For data held in the website database, it might be appropriate to combine this
+with the data retention policy - this details every piece of information we
+store, and we can at the same time document the need for this information. We
+can also have that document be checked for exhaustiveness automatically, as part
+of the website software test suite, so that any new fields added to the database
+are brought to our attention for checking.
+
+It may help to have a separate document that details the decisions and risk
+factors we think for different types of processing, similar to the DPIA
+templates on ICO.
+
+We need to also do this as part of documenting processes for DBS officer and
+booking secretary.
 
 
 Data retention etc.
@@ -765,15 +1003,42 @@ Data retention etc.
   - implement it in terms of wiping data from CCiW database
 
 
+
+https://allaboutuklaw.co.uk/statute-of-limitations/
+
+
+Data breaches
+~~~~~~~~~~~~~
+
+As per GDPR Art. 33 para 5., we need to document all data breaches and potentially
+report them to ICO.
+
+It is very likely that the number of such incidences will be very low, and we
+will manage this with a Google Docs document that the committee and webmasters
+have access to:
+
+https://docs.google.com/document/d/1KFTIin9xxb0aN9lXtKRLk5q6aEw0DXOmCHamNT7s5Sw/  ``STATUS:WIP``
+
+We need to add simple process to relevant manuals, especially:
+
+* Leaders
+* Webmaster
+* Booking secretary
+* DBS Officer
+
+``STATUS:TODO``
+
 Security tightening and consolidation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * New AWS account for CCiW, instead of my personal one, with documented
   setup procedures  ``STATUS:DONE``
 
-  - use for AWS S3 backups
-  - recreate AWS SES config (email) using this account
-  - move everything off Mailgun
+  - use for AWS S3 backups ``STATUS:DONE``
+  - recreate AWS SES config (email) using new account ``STATUS:DONE``
+  - move everything off Mailgun ``STATUS:DONE``
+
+
 
 
 Uncategorised
@@ -817,4 +1082,3 @@ Uncategorised
 
 
 * ``STATUS:TODO`` Decide policy on external storage devices
-

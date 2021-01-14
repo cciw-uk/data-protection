@@ -69,4 +69,6 @@ The deliverables I'm including are:
 
 * 07 Privacy notice
 
+  https://ico.org.uk/for-organisations/make-your-own-privacy-notice/
+  
   TODO
