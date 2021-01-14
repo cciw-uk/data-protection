@@ -28,14 +28,17 @@ main responsibilities we need to be aware of are as follows:
 
 * We must take particular care with certain more sensitive data, such as
   information about past criminal records that are part of the officer
-  application form.
+  application process.
+
+* We must report data breaches to ICO and the "data subjects" (the people the
+  information is about) in certain circumstances.
 
 The trustees have the responsibility to ensure our practices and policies are in
 line with data protection law, and there are specific duties that fall to
 different members of CCiW, which are detailed in other places:
 
-* Web master/web developers: see the "Security and data protection" notes that
-  are in the CCiW source code:
+* Web master/web developers: see the "Security and data protection" manual that
+  is in the CCiW source code:
   https://gitlab.com/cciw/cciw.co.uk/-/blob/master/docs/security.rst
 
 * Leaders: TODO
