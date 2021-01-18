@@ -33,6 +33,9 @@ main responsibilities we need to be aware of are as follows:
 * We must report data breaches to ICO and the "data subjects" (the people the
   information is about) in certain circumstances.
 
+In all of these things, we need to take into account our other responsibilities,
+and ensure the primacy of the well-being of campers that we look after.
+
 The trustees have the responsibility to ensure our practices and policies are in
 line with data protection law, and there are specific duties that fall to
 different members of CCiW, which are detailed in other places:

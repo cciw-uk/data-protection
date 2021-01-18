@@ -599,11 +599,7 @@ Chapter 4 - Controller and processor
   It also notes, paragraph 1, the need to "take into account..the risks of
   varying likelihood and severity for the rights and freedoms of natural
   persons". This means we can and should be sensible about the actual kinds of
-  risks that CCiW is likely to face. For example, the risks associated with not
-  having medical forms available when needed (because they are, say, locked in a
-  safe and the person with the key is not present), are much, much higher than
-  the risks associated with a camper's medical form being accessible to too many
-  people.
+  risks that CCiW is likely to face.
 
 - Article 25 - Data protection by design and by default
 
@@ -684,7 +680,7 @@ Chapter 4 - Controller and processor
 - Article 35 - Data protection impact assessment
 
   We need to do these DPIA for the data we hold.
-  
+
   It is very unlikely that we will need or want to do processing of a type
   that needs an impact assessment as per the description in paragraph 3.
 
@@ -706,7 +702,7 @@ Chapter 4 - Controller and processor
 - Article 40 - Codes of conduct
 
   Largely irrelevant for us at the moment because:
-  
+
       "There are no approved UK GDPR codes of conduct at the moment, but we are
       actively working with various sector bodies and associations to assist
       them in developing codes of conduct and are keen to talk to others who may
@@ -815,23 +811,172 @@ General
 * We will minimise the amount of "downloading" of sensitive data that
   can be done on the website.
 
-  * only leaders will be able to download camper data. ``STATUS:DONE`` (since the beginning)
+  * only leaders will be able to download camper data. ``STATUS:DONE`` (since
+    the beginning)
 
-  * only leaders will be able to view officer data. ``STATUS:DONE`` (since the beginning)
+  * only leaders will be able to view officer data. ``STATUS:DONE`` (since the
+    beginning)
 
   * we will train leaders at the point of download with rules about use of this
     data ``STATUS:TODO``.
 
-
 Risks
 ~~~~~
 
+As noted above, GDPR article 24 specifically says that we must "take into
+account...the risks of varying likelihood and severity for the rights and
+freedoms of natural persons".
 
-Attack vectors
-~~~~~~~~~~~~~~
+In general, it is helpful to think of "risk" = "likelihood" × "severity (of
+consequences)". We'll look at these below:
 
-TODO need a general section outlining where we face our biggest risks and likely
-attack vectors.
+Likelihood
+~~~~~~~~~~
+
+Coming from computer security background, one helpful way to think about
+security risks is to list "attack vectors" i.e. methods or places where we are
+exposed to attacks.
+
+Some attacks depend on being specifically targeted. I estimate that the
+probability here is very low, due to the fact that the information we store is
+simply not easily "monetizable" by any attacker:
+
+* The health data we store is extremely limited in nature (allergies, current
+  medication etc.), and very low value to any attacker, and (with data retention
+  policies applied) very small in volume.
+
+* The criminal record information we store could potentially be attractive to an
+  attacker for the purposes of blackmail or something, but what we store is very
+  small in volume, and also mostly inaccessible online (``STATUS:TODO`` confirm
+  what we do actually store and how).
+
+Our main attack vectors are:
+
+* non-targeted online attacks. These can happen when online attackers scan
+  internet sites for known vulnerabilities, trying to gain access.
+
+  Probability: moderate - we can't avoid being targeted like this, and the ease
+  with which online attacks can be done (relatively anonymous, or easily
+  anonymised) means there are few disincentives.
+
+* phishing attacks: people trying to gain access to CCiW by "social engineering"
+  attacks on CCiW volunteers (emails that trick you into giving a password).
+
+  Probability: low - these attacks are usually targeted, and we are unlikely to
+  be a target.
+
+* physical attacks i.e. theft of devices owned by CCiW volunteers, leading
+  to data falling into other people's hands.
+
+  Probability: very low. The probability of devices being stolen is not
+  especially low, but such thefts will almost always be for the hardware, and
+  not for the data we store. This is because:
+
+  * Most thieves will want to wipe devices as soon as they can, because of the
+    possibility of tracking apps or incriminating data (i.e. it is obvious the
+    device was owned by someone else).
+
+  * A targeted physical attack (someone stealing a device for the sake of
+    getting at our data) is extremely unlikely - our data has so little value to
+    an attacker, the risks of being caught massively outweigh any potential
+    profit.
+
+* leaking of camper data to other campers while on camp.
+
+  Probability: moderate - we cannot avoid having this data in close proximity to
+  campers in some form. They are unlikely to be very interested in it however.
+
+Severity
+~~~~~~~~
+
+Another thing we can borrow from computer terminology the importance of thinking
+about "denial of service" vulnerabilities. In computer security terminology,
+this is when a fault means that a service or system becomes unavailable,
+triggered either accidentally or by the deliberate action of an attacker. In
+contrast with other security vulnerabilities, which are usually of the kind "the
+system can be made to do something it wasn't supposed to do", this kind is "the
+system can become **unable** to do what it **was** supposed to do".
+
+We need to have both in mind when listing and evaluating the risks we face,
+which I think include the following, in order of decreasing severity:
+
+* By far the most serious consequences from failing to have safe systems is a
+  "denial of service" vulnerability - that we do not have the medical
+  information needed, at the time we need it, to look after campers on camp.
+
+  In this situation, we might fail to take into account an allergy or some
+  regular medication that is needed, or fail to pass on this information to a
+  medical professional in the event of an emergency when we take a camper to
+  hospital. The results could be serious health consequences or even loss of
+  life.
+
+* Leaking of officer information regarding criminal convictions, or other issues
+  that are mentioned on their application form. This has the primary consequence
+  of loss of personal reputation, which could have serious consequences for
+  their lives.
+
+* Leaking of personal camper data on camp to other campers.
+
+  * This could lead to teasing/bullying in some cases e.g. if there is a
+    bed-wetting problem or learning difficulty that is mentioned on a medical
+    form.
+
+  * It could lead to some loss of privacy and possibly harassment e.g. a camper
+    finds another camper's contact information and uses it to harass them after
+    camp.
+
+The risks above, with both likelihood and severity, should help inform our
+policies and how we balance different responsibilities.
+
+
+Camper data on camp
+~~~~~~~~~~~~~~~~~~~
+
+We need to have camper information, including medical forms, and store these
+safely.
+
+I recommend that we should print out all medical forms for use on camp (as we do
+currently), with enough copies to ensure that a complete set can easily be taken
+with every group of campers who might go in different directions for activities,
+plus spares. This can easily be done from the downloaded booking forms (a few
+A4 sheets for the whole set).
+
+Instructions for use will be printed out with the forms (as a cover sheet). They
+should be stored in a safe place in an officer-only area of the camp site.
+
+Use of phone or tablets has been suggested as a possibility. Relatively
+speaking, electronic devices are extremely vulnerable to a range of physical
+attacks/flaws:
+
+* theft - they are much more likely to be stolen by an opportunistic thief,
+  compared to a few pieces of paper that we are carrying around.
+
+* power failure due to running out of battery - especially on camp where we
+  often have insufficient electric supply for the large number of people who
+  want to charge devices.
+
+* accidental breakage - e.g. from water damage or rough treatment on camp.
+  (Paper is also easily damaged by water, but it is also much easier to protect
+  with simple waterproof envelopes, and many, many times cheaper to bring or
+  make extra copies.)
+
+For these reasons, I would strongly recommend against relying on any electronic
+devices for access to medical data while on camp - paper is a fantastic
+technology - cheap, light, very flexible (quite literally), far more secure
+for our purposes, and we should use it (as we have been).
+
+In terms of location, they should be stored in an officer-only part of the camp
+site, and all officers must know this location, be able to get the sheets from
+there. They should not be left in camper tents or officer bags over night - they
+should be kept physically with the officers and returned to the safe place when
+finished. Campers should not be told the location.
+
+The use of a safe for storing documents on camp introduces a significant "denial
+of service" vulnerability - the safe could fail physically, or the officers
+needing access may not have keys or may not have remembered unlock codes. Since
+medical emergencies can happen at any point, and sometimes time is of the
+essence, in my opinion this would introduce an unacceptable risk.
+
 
 Data Protection Officer
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -841,11 +986,11 @@ Data Protection Officer
   See `Do we need to appoint a Data Protection Officer
   <https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-officers/#ib1>`_
 
-     Under the GDPR, you must appoint a DPO if:
+  Under the GDPR, you must appoint a DPO if:
 
-     * you are a public authority or body (except for courts acting in their judicial capacity);
-     * your core activities require large scale, regular and systematic monitoring of individuals (for example, online behaviour tracking); or
-     * your core activities consist of large scale processing of special categories of data or data relating to criminal convictions and offences.
+  * you are a public authority or body (except for courts acting in their judicial capacity);
+  * your core activities require large scale, regular and systematic monitoring of individuals (for example, online behaviour tracking); or
+  * your core activities consist of large scale processing of special categories of data or data relating to criminal convictions and offences.
 
   The closest we get is point 3 (due to health information and criminal records
   information), but it is certainly not a "core activity" (see `What is a core
@@ -889,7 +1034,7 @@ Use of email
     forms and references to instead sending email notifications and allowing
     them to be viewed online.
 
-* We should not use of "@cciw.co.uk" email **accounts** (using a provider like
+* We should not use "@cciw.co.uk" email **accounts** (using a provider like
   Google or Microsoft 365). We have to take into account what will actually
   happen:
 
@@ -917,8 +1062,8 @@ Use of email
 
   The few @cciw.co.uk email addresses we have at the moment are simply
   "forwarding addresses" which redirect to personal email accounts, and I
-  recommend we continue to do this. We will design processes and practices
-  that do not involve sending sensitive data to email as far as possible.
+  recommend we continue to do this. We will design processes and practices that
+  do not involve sending sensitive data by email as far as possible.
 
   (``STATUS:DONE`` This is already current practice on the website and has been
   for several years. We may need to tighten some things regarding telling
@@ -959,15 +1104,18 @@ Online authentication systems and passwords
     * Require 8 character min and add "compromised passwords" checker
       `pwned-passwords-django
       <https://github.com/ubernostrum/pwned-passwords-django>`_ -
-      ``STATUS:DONE`` in `583a6d00
+      ``STATUS:DONE`` in `change 583a6d00
       <https://gitlab.com/cciw/cciw.co.uk/-/commit/583a6d00504a05cded071e7e04ea7c79b3bfd40a>`_
 
-    * For existing accounts, we may want to improve password strength,
-      especially for users who have elevated access. We need to add some
-      controls that force those users to go through the 'choose password'
-      process. (We cannot check existing passwords meet criteria, because we
-      don't know what they are - as per best practices, we don't store passwords
-      but only password hashes). ``STATUS:TODO``
+    * For existing passwords, which wouldn't normally be affected by the
+      validation rules on the 'set password' page, we've added validation of
+      passwords on next login, forcing a password change if it doesn't meet the
+      new standards. ``STATUS:DONE`` in `change dd4b6c79
+      <https://gitlab.com/cciw/cciw.co.uk/-/commit/dd4b6c79b193e5b16ebf435bf6b9dc4d00c5608f>`_
+
+      (We cannot check existing passwords meet criteria, because we don't know
+      what they are - as per best practices, we don't store passwords but only
+      password hashes. So we can only check on next login).
 
 Data Protection Impact Assessment (DPIA)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
