@@ -23,7 +23,7 @@ First - a fairly long section about my approach to all of this:
 
   * https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/
 
-  I've read the relevant sections of these. ``STATUS:WIP``
+  I've read the relevant sections of these. ``STATUS:DONE``
 
 * I've also read all the other materials prepared so far, for reference:
 
@@ -67,7 +67,7 @@ First - a fairly long section about my approach to all of this:
 * In terms of human psychology, first of all: most people would rather drink a
   pint of lava than read a long data protection policy. Of all the hundreds of
   times that you have claimed "I have read the terms and conditions", how many
-  times have you actually read them?. Asking people to stop what they are doing
+  times have you actually read them? Asking people to stop what they are doing
   to read a long doc and tick a box to say they have done so is just asking them
   to lie.
 
@@ -941,9 +941,6 @@ with every group of campers who might go in different directions for activities,
 plus spares. This can easily be done from the downloaded booking forms (a few
 A4 sheets for the whole set).
 
-Instructions for use will be printed out with the forms (as a cover sheet). They
-should be stored in a safe place in an officer-only area of the camp site.
-
 Use of phone or tablets has been suggested as a possibility. Relatively
 speaking, electronic devices are extremely vulnerable to a range of physical
 attacks/flaws:
@@ -967,7 +964,7 @@ for our purposes, and we should use it (as we have been).
 
 In terms of location, they should be stored in an officer-only part of the camp
 site, and all officers must know this location, be able to get the sheets from
-there. They should not be left in camper tents or officer bags over night - they
+there. They should not be left in camper tents or officer bags overnight - they
 should be kept physically with the officers and returned to the safe place when
 finished. Campers should not be told the location.
 
@@ -977,6 +974,8 @@ needing access may not have keys or may not have remembered unlock codes. Since
 medical emergencies can happen at any point, and sometimes time is of the
 essence, in my opinion this would introduce an unacceptable risk.
 
+Instructions for use of these forms will be downloaded and printed out with the
+forms (as a cover sheet).
 
 Data Protection Officer
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -1151,15 +1150,14 @@ Data retention etc.
   - implement it in terms of wiping data from CCiW database
 
 
-
 https://allaboutuklaw.co.uk/statute-of-limitations/
 
 
 Data breaches
 ~~~~~~~~~~~~~
 
-As per GDPR Art. 33 para 5., we need to document all data breaches and potentially
-report them to ICO.
+As per GDPR Art. 33 para 5., we need to document all data breaches and
+potentially report them to ICO.
 
 It is very likely that the number of such incidences will be very low, and we
 will manage this with a Google Docs document that the committee and webmasters
@@ -1167,7 +1165,7 @@ have access to:
 
 https://docs.google.com/document/d/1KFTIin9xxb0aN9lXtKRLk5q6aEw0DXOmCHamNT7s5Sw/  ``STATUS:WIP``
 
-We need to add simple process to relevant manuals, especially:
+We need to add simple processes to relevant manuals, especially:
 
 * Leaders
 * Webmaster
@@ -1185,8 +1183,6 @@ Security tightening and consolidation
   - use for AWS S3 backups ``STATUS:DONE``
   - recreate AWS SES config (email) using new account ``STATUS:DONE``
   - move everything off Mailgun ``STATUS:DONE``
-
-
 
 
 Uncategorised
@@ -1214,7 +1210,7 @@ Uncategorised
 
 * ``STATUS:TODO`` Contact Becky about her DBS processes
 
-* ``STATUS:TODO`` Find out rules for privacy breach, add to relevant manual
+* ``STATUS:TODO`` Find out rules for privacy breach, add to relevant manuals
 
 * ``STATUS:TODO`` Links for downloadable private data should prompt regarding data
   protection when clicked
@@ -1227,6 +1223,5 @@ Uncategorised
 * Move source code to GitLab, and correct in source code and other
   documents. This makes it easy for people to see our source code, including
   data retention policy.  ``STATUS:DONE``
-
 
 * ``STATUS:TODO`` Decide policy on external storage devices
