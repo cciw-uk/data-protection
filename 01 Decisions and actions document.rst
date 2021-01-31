@@ -651,10 +651,9 @@ Chapter 4 - Controller and processor
 - Article 32 - Security of processing
 
   1. b) and c) include the need for ongoing "availability" of data, which has to
-     put alongside other things like encryption in part a). This means we have
-     to weigh risks associated with encryption that could cause loss of
+     be put alongside other things like encryption in part a). This means we
+     have to weigh risks associated with encryption that could cause loss of
      availability (if you lose the encryption keys, the data is gone).
-
 
 - Article 33 - Notification of a personal data breach to the supervisory authority
 
@@ -839,7 +838,7 @@ exposed to attacks.
 
 Some attacks depend on being specifically targeted. I estimate that the
 probability here is very low, due to the fact that the information we store is
-simply not easily "monetizable" by any attacker:
+simply not easily "monetisable" by any attacker:
 
 * The health data we store is extremely limited in nature (allergies, current
   medication etc.), and very low value to any attacker, and (with data retention
@@ -1078,9 +1077,7 @@ Online authentication systems and passwords
   guidelines that are widely used in the industry.
 
   While the data CCiW holds is sensitive, we are relatively low risk in terms of
-  expecting cyber attacks. This is because we hold, relatively speaking, a very
-  small amount of data, and the data has no immediate monetisation
-  possibilities, making us very unlikely to be specifically targeted.
+  expecting cyber attacks, as noted above.
 
   Therefore, we have adopted the following minimum levels:
 
