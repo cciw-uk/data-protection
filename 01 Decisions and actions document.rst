@@ -927,6 +927,18 @@ which I think include the following, in order of decreasing severity:
 The risks above, with both likelihood and severity, should help inform our
 policies and how we balance different responsibilities.
 
+Another way to think about some of these issues is in terms of "fail safe"
+behaviour. To establish what "fail safe" is requires you first to have worked
+out what your greatest risks are.
+
+For example, elevators are usually created with fail safe break mechanisms so
+that if cables snap, or power fails, the `breaks come on
+<https://science.howstuffworks.com/science-vs-myth/everyday-myths/question730.htm>`_.
+This may mean that you get stuck in the elevator shaft, but it is assumed that
+this will only be an inconvenience, not dangerous. However, if the being in the
+building is itself dangerous, the "fail safe" itself becomes dangerous - which
+is one reason you should never take an elevator in the event of fire or
+earthquakes. You have to know what the greatest danger is to know what "safe" is.
 
 Camper data on camp
 ~~~~~~~~~~~~~~~~~~~
@@ -939,6 +951,18 @@ currently), with enough copies to ensure that a complete set can easily be taken
 with every group of campers who might go in different directions for activities,
 plus spares. This can easily be done from the downloaded booking forms (a few
 A4 sheets for the whole set).
+
+Once on camp, they should be stored in an officer-only part of the camp site,
+and all officers must know this location, be able to get the sheets from there.
+They should not be left in camper tents or officer bags overnight - they should
+be kept physically with the officers and returned to the safe place when
+finished with for the day. Campers should not be told the location.
+
+Instructions for use of these forms will be downloaded and printed out with the
+forms (as a cover sheet).
+
+Electronic devices for medical info?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Use of phone or tablets has been suggested as a possibility. Relatively
 speaking, electronic devices are extremely vulnerable to a range of physical
@@ -961,20 +985,23 @@ devices for access to medical data while on camp - paper is a fantastic
 technology - cheap, light, very flexible (quite literally), far more secure
 for our purposes, and we should use it (as we have been).
 
-In terms of location, they should be stored in an officer-only part of the camp
-site, and all officers must know this location, be able to get the sheets from
-there. They should not be left in camper tents or officer bags overnight - they
-should be kept physically with the officers and returned to the safe place when
-finished. Campers should not be told the location.
+Use of a safe?
+~~~~~~~~~~~~~~
 
-The use of a safe for storing documents on camp introduces a significant "denial
-of service" vulnerability - the safe could fail physically, or the officers
-needing access may not have keys or may not have remembered unlock codes. Since
-medical emergencies can happen at any point, and sometimes time is of the
-essence, in my opinion this would introduce an unacceptable risk.
+The use of a safe for storing documents on camp would introduce a significant
+"denial of service" vulnerability - the safe could fail physically, or the
+officers needing access may not have keys or may not have remembered unlock
+codes. Since medical emergencies can happen at any point, and sometimes time is
+of the essence, in my opinion this would introduce an unacceptable risk.
 
-Instructions for use of these forms will be downloaded and printed out with the
-forms (as a cover sheet).
+To put it another way, the "fail safe" mode of a safe is wrong for our use case
+(see above). Safe designers assume the contents must not be stolen, but you
+wouldn't normally need to get at the contents in a big hurry; therefore, it is
+best to lock you out in the case of electronic failure. But this is no good for
+us - if a leak in the tent causes water to pour over the electronics, the fail
+safe mechanism will cause the medical forms to get locked inside, when our
+biggest danger is not having access to the medical information.
+
 
 Data Protection Officer
 ~~~~~~~~~~~~~~~~~~~~~~~
