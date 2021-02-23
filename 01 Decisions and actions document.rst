@@ -131,10 +131,6 @@ First - a fairly long section about my approach to all of this:
   "cloud" computing is that you don't know the location of the computing device.
   And what would this list actually achieve?
 
-  Also, regarding a Data Protection Officer - the document from EMW has this as
-  something we need to do, but as far as I can see it is strictly optional, and
-  probably a very bad idea (see below).
-
   Similarly, in my work for my current client, my boss has had a headache
   attempting to adapt computer use policies from "templates", because our
   company is "remote first", where most people work from their own machines, and
@@ -149,17 +145,17 @@ First - a fairly long section about my approach to all of this:
 
 * Role-specific documents are better than policies for everyone. The majority of
   data protection responsibilities fall on the CCiW web master, so the longest
-  document is the "CCiW Website security policies", which already existed and
-  has been updated.
+  manual is the "CCiW Website security policies", which already existed and has
+  been updated.
 
   We also need specific guidance for the booking secretary and DBS officer.
 
 * We should start with our **existing processes and people**, and see where
   things need tightening. In a very small organisation like ours, the current
   division of labour should be our guide as to who probably has the knowledge to
-  know how to write a policy. As web master I should basically be responsible
-  for our security and data protection requirements, and I'll work closely with
-  Rebecca and Becky to produce something for them.
+  to write a policy. As web master I should basically be responsible for our
+  security and data protection requirements, and I'll work closely with Rebecca
+  and Becky to produce something for them.
 
   The outdated password rules I mentioned above also highlight the fact that we
   should not be writing rules that we're not qualified to write - we should be
@@ -751,7 +747,7 @@ Chapter 8 - Remedies, liability and penalties
 
 - Article 80 - Representation of data subjects
 
-  People can use other (specified) organisation to represent them in these
+  People can use other (specified) organisations to represent them in these
   things.
 
 - Article 82 - Right to compensation and liability
@@ -771,6 +767,52 @@ Chapter 11 Final provisions
 
 Very little of relevance to us here.
 
+Understanding the GDPR
+----------------------
+
+Some general points to understand the GDPR:
+
+* While I'm not a fan of every piece of legislation that has come out of the EU,
+  the GDPR seems entirely reasonable to me, and not overly burdensome in any
+  way. For every obligation there are always the reasonable exceptions and
+  caveats that need to be in place, and it explicitly talks about the need for
+  balance at various points.
+
+  I say this to point out the fact that it is basically just asking us to do
+  what is right with people's data, which means we should have a positive
+  attitude towards it, especially as we are already doing what is right - we're
+  not selling people's data or being negligent with people's privacy, we're
+  collecting only what we need to look after campers properly. We are not the
+  bad guys that the GDPR was written for.
+
+  I'm not saying we don't need to pay attention to it, just that we shouldn't
+  have an attitude of fear that causes us to actually start getting the balance
+  wrong and increasing risk to campers.
+
+* The GDPR requires us to have a "lawful basis" for keeping and using personal
+  data. The most commonly talked about one is "consent", probably because that
+  is the most visible - you get explicitly asked for your consent. However,
+  there `other bases <https://gdpr-info.eu/art-6-gdpr/>`_, several of which are
+  often more important to us - specifically "legitimate interest", "protecting
+  vital interests", "legal obligation" and "contractual obligation".
+
+  In many cases, we should focusing on these latter ones, because they are more
+  relevant to us, and because properly meeting the requirements for "consent" is
+  often quite hard. What I'm saying is that we don't need to think "we need
+  explicit consent to use every piece of information in every specific way" - we
+  usually don't.
+
+  Also, ad-hoc processes that attempt to get consent for something probably
+  won't satisfy the GDPR's requirements for true consent. Any use of personal
+  information depending on consent has to be carefully designed ahead of time.
+  For example, an officer could not just say "Oh I asked the camper and they
+  said it was fine to use their email address for this" - this will not qualify
+  as consent.
+
+* The GDPR includes the more "positive" sides of data protection as an
+  obligation. It's not just about using information wrongly or passing it on to
+  the wrong people, it's also about using information correctly and keeping it
+  safe so that we can do that.
 
 Decisions and recommendations
 -----------------------------
@@ -782,7 +824,8 @@ General
   collect to the things that are essential (or very useful) for doing our job
   well in terms of looking after campers and running CCiW. Our default mindset
   should be "don't collect it" rather than "find a justification for
-  collecting/keeping it".
+  collecting/keeping it". (I think this already reflects our current attitude
+  and practices).
 
   For example, analytics trackers on websites (such as Google Analytics) have a
   variety of privacy concerns, and, for our usage, such analytics is of very
@@ -790,13 +833,13 @@ General
   log-based analytics on our own servers that don't have any privacy concerns -
   much more basic than what Google Analytics provides, but that's fine for us).
 
-* We should start from the premise that in CCiW, when it comes to computers,
-  everyone is using their own "device". The only system that is easy for us to
-  secure is the central CCiW database that is part of the website. We should
-  design processes that make the most of this centrally controllable database,
-  and understand that most other devices will not be easily controlled. So, for
-  the most part, **CCiW staff should be protected from the need to have
-  sensitive data on their own devices**.
+* We should start from the premise that in CCiW, when it comes to computers, all
+  our volunteers are using their own "device". The only system that is easy for
+  us to secure is the central CCiW database that is part of the website. We
+  should design processes that make the most of this centrally controllable
+  database, and understand that most other devices will not be easily
+  controlled. So, for the most part, **CCiW volunteers should be protected from
+  the need to have sensitive data on their own devices**.
 
 * For this reason, a large part of the responsibility for understanding and
   implementing GDPR will fall to the web master/web developers.
@@ -935,10 +978,11 @@ For example, elevators are usually created with fail safe break mechanisms so
 that if cables snap, or power fails, the `breaks come on
 <https://science.howstuffworks.com/science-vs-myth/everyday-myths/question730.htm>`_.
 This may mean that you get stuck in the elevator shaft, but it is assumed that
-this will only be an inconvenience, not dangerous. However, if the being in the
+this will only be an inconvenience, not dangerous. However, if being in the
 building is itself dangerous, the "fail safe" itself becomes dangerous - which
 is one reason you should never take an elevator in the event of fire or
-earthquakes. You have to know what the greatest danger is to know what "safe" is.
+earthquakes. You have to know what the greatest danger is to know what "safe"
+is.
 
 Camper data on camp
 ~~~~~~~~~~~~~~~~~~~
