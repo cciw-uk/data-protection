@@ -23,6 +23,8 @@ The deliverables I'm including are:
   The main changes are:
 
   * additions to leader responsibilities
+  * additions to committee responsibilities (I couldn't find
+    an existing section for this, we might need to create one)
   * a short section on data protection which references other parts and docs.
 
 * 03 CCiW website security docs
@@ -46,7 +48,12 @@ The deliverables I'm including are:
 
   TODO add a significant data protection section to this.
 
-* 04 CCiW Website access information
+
+* `04 DBS Officer Manual <04%20DBS%20Officer%20Manual.rst>`_
+
+* `05 Booking Secretary Manual <05%20Booking%20Secretary%20Manual.rst>`_
+  
+* 06 CCiW Website access information
 
   The link is:
   https://docs.google.com/document/d/1_Ox8wWfqA73vqN66yEQRSASuKxtrFkcftJa5oFytiPc/edit
@@ -61,14 +68,16 @@ The deliverables I'm including are:
   I will include a copy of the most recent version when submitting this
   work to the committee.
 
-* 05 Data retention policy
+* 07 Data retention policy
 
-  TODO
+  STATUS:TODO
 
-* 06 Appropriate Policy Document
+* 08 Appropriate Policy Document
 
-* 07 Privacy notice
+  STATUS:TODO
+
+* 09 Privacy notice
 
   https://ico.org.uk/for-organisations/make-your-own-privacy-notice/
   
-  TODO
+  STATUS:TODO

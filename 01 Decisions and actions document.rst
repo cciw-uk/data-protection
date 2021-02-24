@@ -1242,6 +1242,39 @@ We need to add simple processes to relevant manuals, especially:
 
 ``STATUS:TODO``
 
+
+Legal defence considerations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+As much as possible, we don't want to be storing details of criminal records,
+due to the privacy concerns.
+
+However, we also need to remember that abuse could happen on camp, and whether
+it happens or not we are open to allegations. Such allegations could come out a
+long time later.
+
+In such situation, we have a need and right to defend ourselves against
+accusations, and this is recognised by the GDPR (see Article 9 item f).
+
+For this reasons, I'm recommending that the following information should be kept
+essentially forever, overriding the "right to erasure" and other concerns (in
+accordance with the exception made in GDPR Article 17 paragraph 3.e.)
+
+* List of names of all campers on camp, with the name of the parent/guardian.
+  The purpose here is to be able to identify a complete list of campers present
+  on a camp.
+
+* Records of DBS checks we've made:
+
+  * The records stored in the CCiW website, which actually store no information
+    about criminal convictions, just a decision.
+
+  * The separate document that we keep detailing cases where we had to make a
+    decision for officers who had criminal convictions - see the section in `02
+    Amendments to CCiW handbook.rst <02%20Amendments%20to%20manual.rst>`_
+
+
+
 Security tightening and consolidation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
