@@ -16,35 +16,24 @@ The deliverables I'm including are:
   evidence of our due diligence regarding GDPR), but doesn't need to be read by
   leaders or become part of our manuals.
 
-  It's a long document, but I've tried to keep it fairly readable.
+  It's a very long document, sorry! But I've tried to keep it fairly readable.
 
 * `02 Amendments to CCiW handbook <02%20Amendments%20to%20manual.rst>`_
 
-  The main changes are:
-
-  * additions to leader responsibilities
-  * additions to committee responsibilities (I couldn't find
-    an existing section for this, we might need to create one)
-  * a short section on data protection which references other parts and docs.
-
 * 03 CCiW website security docs
 
-  The link is:
+  This is part of the CCiW source code repo. The link is:
   https://gitlab.com/cciw/cciw.co.uk/-/blob/master/docs/security.rst
 
-  This is part of the CCIW webmaster's manual, and includes information about
-  security, privacy, data protection and data retention. As a lot of the GDPR
-  responsibilities fall on the web master, this contains the longest section
-  explicitly on data protection principles.
+  This includes information about security, privacy, data protection and data
+  retention. As a lot of the GDPR responsibilities fall on the web master, this
+  contains the longest section explicitly on data protection principles.
 
   Note:
 
   * it is part of the source code/documentation that the web developers read
   * it is therefore public, as all our source code is.
   * the audience is the web master/developers.
-
-  I will include a copy of the most recent version when submitting this
-  work to the committee.
 
 * `04 DBS Officer Manual <04%20DBS%20Officer%20Manual.rst>`_
 
@@ -53,8 +42,8 @@ The deliverables I'm including are:
 
 * `05 Booking Secretary Manual <05%20Booking%20Secretary%20Manual.rst>`_
 
-  Once accepted, this document should be reformatted (I can do this) and added
-  to the CCiW Handbook documents.
+  ``STATUS:TODO`` - I haven't been able to do this yet!
+
 
 * 06 CCiW Website access information
 
@@ -68,24 +57,21 @@ The deliverables I'm including are:
   access it. The document has been around a while but has been updated and
   completed as part of this work.
 
-  I will include a copy of the most recent version when submitting this
-  work to the committee.
+* 07 Data retention policy
 
-* `07 Data Protection Impact Assessment
+  This is part of the CCiW source code repo. The link is:
+  https://gitlab.com/cciw/cciw.co.uk/-/blob/master/config/data_retention.yaml
 
-  This is Word document that most probably should be put into the CCiW Google
-  Drive folder, once accepted. Current state is it is an early draft.
+* 08 Appropriate Policy Document
 
-* 08 Data retention policy
+  ``STATUS:TODO``
 
-  STATUS:TODO
-
-* 09 Appropriate Policy Document
-
-  STATUS:TODO
-
-* 10 Privacy notice
+* 09 Privacy notice
 
   https://ico.org.uk/for-organisations/make-your-own-privacy-notice/
 
-  STATUS:TODO
+  ``STATUS:TODO``
+
+
+For external documents I'll include a snapshot of the most recent version when
+submitting this work to the committee.

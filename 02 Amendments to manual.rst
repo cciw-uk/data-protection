@@ -2,8 +2,7 @@ Amendments to CCiW manual
 =========================
 
 We need a short section that notes CCiW's responsibilities to handle data
-carefully, with a very brief summary of the main points. Rough first draft as
-follows:
+carefully, with a very brief summary of the main points. Draft as follows:
 
 ----
 
@@ -13,8 +12,8 @@ Data protection
 
 As an organisation it is important to respect the data protection rights of
 everyone involved in camp, including campers and officers. This is part of our
-duty of love to our neighbours, and we have specific legal obligations too, as
-set out in the GDPR and other data protection laws, which we must abide by.
+duty of love to our neighbours, and we have specific legal obligations as well,
+as set out in the GDPR and other data protection laws, which we must abide by.
 
 In summary, in terms of the application of these laws to our activities, the
 main responsibilities we need to be aware of are as follows:
@@ -51,11 +50,11 @@ detailed in other places:
   is in the CCiW source code:
   https://gitlab.com/cciw/cciw.co.uk/-/blob/master/docs/security.rst
 
-* Leaders: STATUS:TODO
+* Leaders: ``STATUS:TODO``
 
-* Booking secretary: `04 DBS Officer Manual <04%20DBS%20Officer%20Manual.rst>`_
+* Booking secretary: ``STATUS:TODO``
 
-* DBS Officer: STATUS:WIP
+* DBS Officer: `04 DBS Officer Manual <04%20DBS%20Officer%20Manual.rst>`_
 
 The trustees will be responsible for answering any queries regarding use of
 personal data not covered in these manuals, and they will use resources
