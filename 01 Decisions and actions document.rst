@@ -19,6 +19,10 @@ First - a fairly long section about my approach to all of this:
 
     More convenient version here: https://gdpr-info.eu/
 
+* Then, the ICO's information on GDPR (the ICO, Information Commissioner's
+  Officer, is "The UK’s independent authority set up to uphold information
+  rights in the public interest")
+
   * https://ico.org.uk/for-organisations/in-your-sector/charity/charities-faqs/
 
   * https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/
@@ -773,6 +777,9 @@ Some general points to understand the GDPR:
   the wrong people, it's also about using information correctly and keeping it
   safe so that we can do that.
 
+* The 4 largest Jovian moons, in decreasing order of size, are Ganymede,
+  Callisto, Io and Europa.
+
 Decisions and recommendations
 -----------------------------
 
@@ -983,14 +990,69 @@ be kept physically with the officers and returned to the safe place when
 finished with for the day. Campers should not be told the location.
 
 Instructions for use of these forms will be included in the downloaded file as a
-cover sheet, and printed out with the forms.
+cover sheet, and printed out with the forms. It can also be used as an
+opportunity for some data protection training, as per the approach I set out
+above.
+
+I recommend this text:
+
+  Important! This spreadsheet contains private data of campers, including medical
+  information, that needs to be handled carefully. Please observe these points
+  from the CCiW trustees:
+
+  * This spreadsheet must be stored on your device only as long as needed,
+    and must be deleted within 1 month of the end of camp at the latest.
+
+  * This information must not be emailed or passed on to other officers. Talk
+    to the webmaster if you think you have a need to do this.
+
+  * We recommend that the medical information sheets are printed out and at
+    least 20 complete copies are taken on camp. You need enough copies so that
+    you can take a copy with every group of campers to be with them at all times
+    where ever they are going. This means, for example, you'll need one for
+    every minibus, as well as spares in case of damage.
+
+  * We recommend you store them in waterproof cases.
+
+  * The copies should be stored in a safe, officer-only part of the camp site.
+    All officers must know the location, and they must be accessible in an
+    emergency at any time. For this reason we recommend you **don't** store them
+    in a locked safe. They should not be left in officers bags or pockets, but
+    returned to the safe location when not needed (e.g. after a trip)
+
+  * When instructing the officers about the importance of these sheets, it's
+    good to take the opportunity to discuss data protection laws. You can
+    briefly include the following points:
+
+    * First of all, we have a duty to protect this data **so that we can use it
+      for its intended purpose** - looking after campers as best we can. This
+      means we must make sure we have the medical information we've been given
+      so that we can use it for first aid if necessary and pass it on to medical
+      professionals.
+
+    * We must also protect this data and any other personal camper data from
+      **misuse** and access by the wrong people. That means we don't leave it
+      lying around for campers to find, and we also don't use it for purposes
+      it wasn't given for.
+
+      For example, we don't have a right to use camper contact data for forming
+      online connections. We also cannot justify this by asking for "consent" on
+      camp - that doesn't qualify as consent. We use camper information only for
+      the purposes the CCiW trustees have agreed.
+
+    * This is not just a good idea, it's also the law! Ask the camp leaders
+      for more info if you are in doubt.
+
+
+Add this cover sheet to the downloaded spreadsheet ``STATUS:TODO``.
+
 
 Electronic devices for medical info?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use of phone or tablets has been suggested as a possibility. Relatively
-speaking, electronic devices are extremely vulnerable to a range of physical
-attacks/flaws:
+Use of phone or tablets has been suggested as a possibility for storing data on
+camp. Relatively speaking, electronic devices are extremely vulnerable to a
+range of physical attacks/flaws:
 
 * theft - they are much more likely to be stolen by an opportunistic thief,
   compared to a few pieces of paper that we are carrying around.
@@ -1005,9 +1067,9 @@ attacks/flaws:
   or make extra copies.)
 
 For these reasons, I would strongly recommend against relying on any electronic
-devices for access to medical data while on camp - paper is a fantastic
-technology - cheap, light, very flexible (quite literally), far more secure
-for our purposes, and we should use it (as we have been).
+devices for access to medical data while on camp. Paper is a fantastic
+technology - cheap, light, very flexible (quite literally), far more secure for
+our purposes, and we should use it (as we have been).
 
 Use of a safe?
 ~~~~~~~~~~~~~~
@@ -1146,6 +1208,12 @@ So I recommend:
 ``STATUS:TODO`` We need to tighten some things regarding telling leaders what
 they can and can't do with lists of camper data etc.
 
+Secure storage units
+~~~~~~~~~~~~~~~~~~~~
+
+TODO
+
+
 
 Online authentication systems and passwords
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1235,6 +1303,13 @@ leisure, complete a DPIA. It will mainly contain things already discussed here,
 but the formal DPIA structure is an easy way for us to show that we are being
 compliant.
 
+What are Jupiter's 4 largest moons? If you can remember them **in order**, and
+**without looking back**, I owe you 1 (one) honey ice cream next time we are
+both in the vicinity of the Honey Ice Cream factory in Tywyn.
+
+(Are there any more Easter Eggs in this document? You'll have to keep reading
+carefully…)
+
 
 Data retention etc.
 ~~~~~~~~~~~~~~~~~~~
@@ -1305,14 +1380,18 @@ demonstrate from our records:
 
   This should help demonstrate our good order.
 
-  It is also possible that it will actually demonstrate a failure to vet
-  properly - for instance, if a reference expressed concern that the officer was
-  not suitable, but we went ahead and let them on camp anyway, this could
-  potentially incriminate us. However, in such circumstances as Christians we
-  should prefer honesty and transparency to protecting our own interests. It is
-  in the public interest that we can be held to account for our behaviour, and
-  if there have been failings in our own organisation, we should be the first to
-  want to admit and expose them. Ephesians 5:11.
+  It is also possible that the information we hold will actually demonstrate a
+  failure to vet properly - for instance, if a reference expressed concern that
+  the officer was not suitable, but we went ahead and let them on camp anyway,
+  this could potentially incriminate us. In such cases, we might not be required
+  to hand such information over to law enforcement, on the basis of the right
+  against self-incrimination.
+
+  However, I imagine that normally in such circumstances as Christians we should
+  prefer honesty and transparency to protecting our own interests. It's good
+  that we can be held to account for our behaviour, and if there have been
+  failings in our own organisation, we should be the first to want to admit and
+  expose them. Ephesians 5:11.
 
 To sum up, we want to keep enough information both to defend ourselves and to
 cooperate as fully as we can with law enforcement investigations and legitimate
@@ -1379,6 +1458,66 @@ I think this can be very short, because it mainly says:
   this data forever. Other personal data is removed normally after 5 years,
   and sooner if requested, which you can do <here>.
 
+Rights of data subject
+~~~~~~~~~~~~~~~~~~~~~~
+
+We should provide sections on the relevant parts of the CCiW website
+(booking/officers) detailing users "data rights", and information about how to
+use those rights:
+
+- right to erasure - request via contact form
+  - this will be handled by CCiW webmaster, using semi-automated processes
+    that respect the exceptions described in our data retention policy.
+
+- right to rectification - request via contact form
+  - this will be handled by CCiW webmaster, using mostly manual processes
+
+- right to access information stored about them
+  - handled by a dedicated website functionality that allows download, in a format
+    that allows "portability" - ``STATUS:TODO``
+
+- right to complain to ICO
+
+- anything else mentioned in `Chapter 3 of the GDPR
+  <https://gdpr-info.eu/chapter-3/>`_
+
+Regarding "right of access" or "subject access request (SAR)", (see `GDPR
+article 15 <https://gdpr-info.eu/art-15-gdpr/>`_), I believe there are some
+important exceptions that we need to agree on.
+
+The biggest issue is whether we should provide officers with the references
+we collect about them.
+
+The ICO article on `Exemptions
+<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/exemptions/#ib3>`_
+(namely, exemptions to the requirements of GDPR and specifically the rights of
+the data subject) says:
+
+    Some exemptions apply simply because you have a particular purpose. But
+    others only apply to the extent that complying with the UK GDPR would:
+
+    * be likely to prejudice your purpose (e.g. have a damaging or detrimental
+      effect on what you are doing); or
+
+    * prevent or seriously impair you from processing personal data in a way
+      that is required or necessary for your purpose.
+
+To me it seems clear that if we gave officers access to what their referees
+wrote about them, we could seriously impair our ability to get honest
+references. If referees knew that we might share their references with the
+officers, they may moderate what they write in a way that is unhelpful for us.
+Since it is of critical importance that we find out any hesitation that a
+referee has regarding suitability of an officer for work among vulnerable
+children, I believe we should make an exception and not allow officers to see
+references taken about them.
+
+The specific exemption this may fall under is probably `Crime and taxation:
+general
+<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/exemptions/#ex1>`_),
+and specifically the purpose of “the prevention and detection of crime;”
+
+However, I'm unsure, and I will contact ICO about this. ``STATUS:TODO``
+
 
 Data breaches
 ~~~~~~~~~~~~~
@@ -1438,7 +1577,5 @@ Uncategorised
 * ``STATUS:TODO`` Decide policy on external storage devices
 
 * ``STATUS:TODO`` For each section of booking form and officer application form,
-  include something saying what we need/use the information for.
-
-* ``STATUS:TODO`` Provide a way for campers/bookers/officers to download all
-  their data on the website.
+  include something saying what we need/use the information for. See `GDPR
+  article 13 <https://gdpr-info.eu/art-13-gdpr/>`_.

@@ -2,7 +2,9 @@ Amendments to CCiW manual
 =========================
 
 We need a short section that notes CCiW's responsibilities to handle data
-carefully, with a very brief summary of the main points. Draft as follows:
+carefully, with a very brief summary of the main points. This could potentially
+be a new document. The intended audience is the CCiW trustees.
+Draft as follows:
 
 ----
 
@@ -39,7 +41,7 @@ and ensure the primacy of the well-being of campers that we look after.
 
 The trustees have the responsibility to ensure our practices and policies are in
 line with the good of our campers and officers, and data protection law. A
-helpful GDPR checklist that the committee should read is found in the ICO
+helpful GDPR checklist that the trustees should read is found in the ICO
 document `Data Protection by design and default
 <https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-by-design-and-default/>`_.
 
@@ -65,6 +67,13 @@ including the following to adjust our policies as needed in the future:
 * https://ico.org.uk/for-organisations/in-your-sector/charity/charities-faqs/
 
 * https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/
+
+Since a large part of the burden for understanding and applying GDPR falls on
+the webmaster(s), the trustees should also make use of the understanding that
+the webmaster(s) have on these matters and communicate with them. In particular,
+the trustees must keep the webmaster informed regarding any personal information
+or filing systems that are not directly under the oversight of the webmaster by
+being part of the website database.
 
 
 ----
