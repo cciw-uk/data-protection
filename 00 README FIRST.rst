@@ -8,7 +8,7 @@ with GDPR/data protection laws.
 
 The deliverables I'm including are:
 
-* `01 Decisions and actions document <01%20Decisions%20and%20actions%20document.rst>`_
+* `Decisions and actions document <Decisions%20and%20actions%20document.rst>`_
 
   A document detailing my recommendations about our data protection policies,
   including actions already taken, along with my reasons for everything. It
@@ -18,9 +18,9 @@ The deliverables I'm including are:
 
   It's a very long document, sorry! But I've tried to keep it fairly readable.
 
-* `02 Amendments to CCiW handbook <02%20Amendments%20to%20manual.rst>`_
+* `Amendments to CCiW handbook <Amendments%20to%20manual.rst>`_
 
-* 03 CCiW website security docs
+* CCiW website security docs
 
   This is part of the CCiW source code repo. The link is:
   https://gitlab.com/cciw/cciw.co.uk/-/blob/master/docs/security.rst
@@ -35,17 +35,17 @@ The deliverables I'm including are:
   * it is therefore public, as all our source code is.
   * the audience is the web master/developers.
 
-* `04 DBS Officer Manual <04%20DBS%20Officer%20Manual.rst>`_
+* `DBS Officer Manual <DBS%20Officer%20Manual.rst>`_
 
   Once accepted, this document should be reformatted (I can do this) and added
   to the CCiW Handbook documents.
 
-* `05 Booking Secretary Manual <05%20Booking%20Secretary%20Manual.rst>`_
+* `Booking Secretary Manual <Booking%20Secretary%20Manual.rst>`_
 
   ``STATUS:TODO`` - I haven't been able to do this yet!
 
 
-* 06 CCiW Website access information
+* CCiW Website access information
 
   The link is:
   https://docs.google.com/document/d/1_Ox8wWfqA73vqN66yEQRSASuKxtrFkcftJa5oFytiPc/edit
@@ -57,16 +57,16 @@ The deliverables I'm including are:
   access it. The document has been around a while but has been updated and
   completed as part of this work.
 
-* 07 Data retention policy
+* Data retention policy
 
   This is part of the CCiW source code repo. The link is:
   https://gitlab.com/cciw/cciw.co.uk/-/blob/master/config/data_retention.yaml
 
-* 08 Appropriate Policy Document
+* Appropriate Policy Document
 
   ``STATUS:TODO``
 
-* 09 Privacy notice
+* Privacy notice
 
   https://ico.org.uk/for-organisations/make-your-own-privacy-notice/
 

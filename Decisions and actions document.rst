@@ -1375,8 +1375,8 @@ demonstrate from our records:
   * information about our DBS checks (which contains no details of actual results)
   * our documentation regarding decisions to accept an officer on camp despite
     criminal records (see the "DBS responsibilities for Chairperson and CPO"
-    section in `02 Amendments to CCiW handbook.rst
-    <02%20Amendments%20to%20manual.rst>`_).
+    section in `Amendments to manual.rst
+    <Amendments%20to%20manual.rst>`_).
 
   This should help demonstrate our good order.
 

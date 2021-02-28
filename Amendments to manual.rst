@@ -56,7 +56,7 @@ detailed in other places:
 
 * Booking secretary: ``STATUS:TODO``
 
-* DBS Officer: `04 DBS Officer Manual <04%20DBS%20Officer%20Manual.rst>`_
+* DBS Officer: `DBS Officer Manual <DBS%20Officer%20Manual.rst>`_
 
 The trustees will be responsible for answering any queries regarding use of
 personal data not covered in these manuals, and they will use resources
