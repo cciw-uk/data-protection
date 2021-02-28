@@ -1,6 +1,8 @@
 Amendments to CCiW manual
 =========================
 
+There are various places in existing manual/handbooks that we should update.
+
 We need a short section that notes CCiW's responsibilities to handle data
 carefully, with a very brief summary of the main points. This could potentially
 be a new document. The intended audience is the CCiW trustees.
@@ -52,7 +54,7 @@ detailed in other places:
   is in the CCiW source code:
   https://gitlab.com/cciw/cciw.co.uk/-/blob/master/docs/security.rst
 
-* Leaders: ``STATUS:TODO``
+* Leaders: "Guidance for Leaders and Chaplains"
 
 * Booking secretary: ``STATUS:TODO``
 
@@ -75,22 +77,25 @@ the trustees must keep the webmaster informed regarding any personal information
 or filing systems that are not directly under the oversight of the webmaster by
 being part of the website database.
 
-
 ----
 
 We will need a new section about CCiW Chairperson and CPO's responsibilities as
 follows. I'm not sure where this should live.
 
-From what I've gathered, we do not have a documented process for this, possibly
-because the situation hasn't actually occurred before. I've therefore drawn
-up a draft of what I thought it should be.
+From what I've gathered, we do not have a documented process for what happens
+when a DBS result actually shows criminal convictions, possibly because the
+situation hasn't actually occurred before. I've therefore drawn up a draft of
+what I thought it should be.
 
 ``STATUS:QUESTION`` This is one of the most sensitive parts of our processes,
 and should be carefully reviewed. It may help us to get some expert advice on
-this. We need to carefully balance: 1) vetting officers properly 2) respecting
-their privacy and GDPR legislation 3) protecting ourselves regarding legal
-cases, 4) giving both sufficient structure and flexibility to a process that is
-hard to anticipate since we have very little experience of this situation.
+this. We need to carefully balance:
+
+1. vetting officers properly
+2. respecting their privacy and GDPR legislation
+3. protecting ourselves regarding legal cases
+4. giving both sufficient structure and flexibility to a process that is hard to
+   anticipate since we have very little experience of this situation.
 
 ----
 
@@ -159,3 +164,47 @@ DBS Decision
 * How much (if any) of the information about a criminal conviction was disclosed
   to camp leaders, and why?
 
+----
+
+In "Guidance for Leaders and Chaplains":
+
+
+In section "Leader's checklist", under "After camp", add:
+
+    Delete all copies of downloaded camper/officer data.
+
+
+In addition, I think the following new section would be helpful:
+
+----
+
+Data protection
+~~~~~~~~~~~~~~~
+
+Leaders have a responsibility to ensure that they protect the information about
+campers and officers that CCiW has collected. This is a legal responsibility
+under GDPR and other laws.
+
+In brief, this means:
+
+* Ensure you have campers details, including medical information, when on camp.
+  Pay special attention to the instructions on the cover sheet of the downloaded
+  spreadsheet of camper data.
+
+* Don't copy sensitive officer data (like references) to your computer, and
+  do not email or pass on camper booking data at all.
+
+* You can appoint "admins" for your camp who can help with online tasks
+  (like collecting references and downloading officer/camper lists). These people
+  must be fully trusted - usually they will be assistant leaders - and these
+  instructions must be passed on to them.
+
+* Ensure you delete all downloaded officer/camper data by one month after the
+  end of camp at the latest. You must not be store CCiW data on your devices
+  long term.
+
+* If you become aware of a "data breach" (data falling into the wrong hands in
+  whatever way), you need to contact the CCiW webmaster and/or the trustees.
+
+* If you think this rules need changing or clarifying, please contact the CCiW
+  webmaster and/or the trustees.

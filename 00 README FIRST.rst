@@ -18,7 +18,12 @@ The deliverables I'm including are:
 
   It's a very long document, sorry! But I've tried to keep it fairly readable.
 
-* `Amendments to CCiW handbook <Amendments%20to%20manual.rst>`_
+  I'm anticipating that there will be lots of places you want to amend things,
+  feel free to change the document into any format that suits you to do this.
+  Google Docs might work well (my internet connection was too bad for this
+  when drafting it).
+
+* `Amendments to manual <Amendments%20to%20manual.rst>`_
 
 * CCiW website security docs
 
@@ -38,12 +43,14 @@ The deliverables I'm including are:
 * `DBS Officer Manual <DBS%20Officer%20Manual.rst>`_
 
   Once accepted, this document should be reformatted (I can do this) and added
-  to the CCiW Handbook documents.
+  to the "CCiW Handbook" documents.
 
 * `Booking Secretary Manual <Booking%20Secretary%20Manual.rst>`_
 
   ``STATUS:TODO`` - I haven't been able to do this yet!
 
+  Once accepted, this document should be reformatted (I can do this) and added
+  to the "CCiW Handbook" documents.
 
 * CCiW Website access information
 

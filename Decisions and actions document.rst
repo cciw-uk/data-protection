@@ -623,10 +623,10 @@ Chapter 4 - Controller and processor
   - https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breach-examples/
   - https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach-assessment/
 
-  We will need to add training on this to various manuals. ``STATUS:TODO``
+  We will need to add training on this to various manuals. ``STATUS:DONE``
 
   5. We need to set up a process for documenting data breaches and their
-     handling.
+     handling. ``STATUS:DONE``
 
 
 - Article 34 - Communication of a personal data breach to the data subject
@@ -1533,11 +1533,10 @@ https://docs.google.com/document/d/1KFTIin9xxb0aN9lXtKRLk5q6aEw0DXOmCHamNT7s5Sw/
 
 We need to add simple processes to relevant manuals, especially:
 
-* Leaders  ``STATUS:TODO``
-* Webmaster  ``STATUS:TODO``
+* Leaders  ``STATUS:DONE``
+* Webmaster  ``STATUS:DONE``
 * Booking secretary  ``STATUS:TODO``
 * DBS Officer  ``STATUS:DONE``
-
 
 
 Security tightening and consolidation
@@ -1560,15 +1559,13 @@ Uncategorised
 
 * ``STATUS:DONE`` Contact Becky about her DBS processes
 
-* ``STATUS:TODO`` Find out rules for privacy breach, add to relevant manuals
-
 * ``STATUS:TODO`` Links for downloadable private data should prompt regarding data
   protection when clicked
 
 * ``STATUS:TODO`` downloaded camper data XLS should contain cover sheet
   with relevant policy regarding use, especially for medical data.
 
-* Review ``STATUS:TODO`` items in website security document
+* Review todo items in website security document ``STATUS:DONE``
 
 * Move source code to GitLab, and correct in source code and other documents.
   This makes it easy for people to see our source code, including data retention
