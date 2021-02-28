@@ -35,7 +35,7 @@ First - a fairly long section about my approach to all of this:
   in terms of policy documents.
 
 * Taking human psychology into account is vital for all of this work, and this
-  is something that is increasingly recognised in best practices.
+  is something that's increasingly recognised in best practices.
 
   For example, in the past people failed to do this when creating password
   policies. They produced rules including things like: passwords must be changed
@@ -59,8 +59,8 @@ First - a fairly long section about my approach to all of this:
       memorized secrets to be changed arbitrarily (e.g., periodically).
 
   In place of the old rules, other, much more effective process are recommended,
-  processes that take into account actual human behaviour. We should be doing
-  the same in all our processes - we should be asking "What will people actually
+  ones that take into account actual human behaviour. We should be doing the
+  same in all our processes - we should be asking "What will people actually
   do?", rather than create long lists of things they are supposed to do, but we
   know they won't.
 
@@ -127,16 +127,14 @@ First - a fairly long section about my approach to all of this:
       contractors used in accordance with the WOYD policy and physical records.
 
   Are we actually going to keep a list of the location of every personal device
-  of CCiW leaders? And what about online services - in general the nature of
-  "cloud" computing is that you don't know the location of the computing device.
-  And what would this list actually achieve?
+  of CCiW leaders? And what would this list actually achieve?
 
   Similarly, in my work for my current client, my boss has had a headache
-  attempting to adapt computer use policies from "templates", because our
-  company is "remote first", where most people work from their own machines, and
-  many policies have that as an afterthought.
+  attempting to adapt computer use policies from templates, because our company
+  is "remote first", where most people work from their own machines, and many
+  policies have that as an afterthought.
 
-  I think it is often easier to write things from scratch with a knowledge of
+  So I think it is often easier to write things from scratch with a knowledge of
   CCiW and GDPR rather than trying to adapt someone else's policy.
 
 * That said, we should definitely look at "prior art" even if we don't use it,
@@ -148,7 +146,7 @@ First - a fairly long section about my approach to all of this:
   manual is the "CCiW Website security policies", which already existed and has
   been updated.
 
-  We also need specific guidance for the booking secretary and DBS officer.
+  We also need specific guidance for the booking secretary and DBS Officer.
 
 * We should start with our **existing processes and people**, and see where
   things need tightening. In a very small organisation like ours, the current
@@ -180,34 +178,6 @@ First - a fairly long section about my approach to all of this:
   Items 1 and 2 are the most difficult - they contain the most sensitive
   information, and are much bigger in terms of volume. Almost all our effort
   will be focused there.
-
-* It is better to have one document than two that have to be kept in sync.
-
-* A document that is both human-readable and a machine-readable **executable**
-  document is better than just human-readable.
-
-  Since we actually have to implement a lot of our policies in terms of
-  software, in some cases I'm intending to make the machine readable document be
-  the official policy document, and make it part of the CCiW source code.
-
-  These documents will then be read by software and applied as part of our data
-  protection or retention processes.
-
-  This has some other advantages - for example, our software can check the
-  document for exhaustiveness. So, for example, if I add an extra table or
-  column to our database, but without updating the "Data Retention Policy", our
-  deployment checks will automatically complain that no data retention policy
-  has been created for these fields, forcing us to ask those questions.
-
-  An example of something like this that already exists is the ``static_roles.yaml``
-  file, which is machine readable, "human readable" (ish - I could improve
-  this), plus has comments with extra explanation:
-
-  https://gitlab.com/cciw/cciw.co.uk/-/blob/master/config/static_roles.yaml
-
-  This should be the **only** document for this, to help ensure that we don't
-  have a disconnect between what we want our policy to be, and what it actually
-  is.
 
 * Hyperlinks are awesome! We should include links to other resources, rather
   than copy large parts of them. For the sake of making this document more
@@ -334,7 +304,7 @@ Chapter 1 - General Provisions
 
     Also "Trustees data" and "Land owners and suppliers" that Darren mentioned - how are these held? QUESTION
 
-  - we have a "filing system" - the CCiW website database. ``STATUS:QUESTION`` -
+  - we have a "filing system" - the CCiW website database. ``QUESTION`` -
     any others?
   - we "process" data, and we are a "data controller"
   - we do not store "genetic data" or "biometric data"
@@ -526,20 +496,9 @@ Chapter 3 - Rights of the data subject
   1.a. when data is no longer necessary for our purposes, the data subject
   has a right to erasure.
 
-  For our purposes, there are various pieces of data that we made need to keep
-  long term, including:
-
-  - list of campers on each camp. In the case of an allegation being made in the future,
-    we made need complete lists of campers who actually attended camps, along with
-    list of officers.
-
-  - to demonstrate due diligence in our selection of officers, we may need to keep
-    references about them and some information about criminal records checks.
-
-  Paragraph 3 also gives further exceptions that may apply to us, specifically
-  3.e. “for the establishment, exercise or defence of legal claims.”
-
-  We may need to confirm these things with an expert.
+  However, paragraph 3 also gives various exceptions that apply to us,
+  specifically 3.e. “for the establishment, exercise or defence of legal
+  claims.”
 
 - Article 18 - Right to restriction of processing
 
@@ -624,7 +583,7 @@ Chapter 4 - Controller and processor
 - Article 28 - Processor
 
   We need to be careful about who we pass on data to. Currently we have very
-  limited use of 3rd parties via the website. ``STATUS:QUESTION`` Are there
+  limited use of 3rd parties via the website. ``QUESTION`` Are there
   other people that we pass data on to?
 
 - Article 29 - Processing under the authority of the controller or processor
@@ -869,8 +828,23 @@ As noted above, GDPR article 24 specifically says that we must "take into
 account...the risks of varying likelihood and severity for the rights and
 freedoms of natural persons".
 
+It is vital to get our assessment of relative risks correct in order to have the
+right safeguards. We sometimes use the term "fail safe", but to determine "fail
+safe" behaviour first requires you to work out what your greatest risks are.
+
+For example, elevators are usually created with fail safe break mechanisms so
+that if cables snap, or power fails, the `breaks come on
+<https://science.howstuffworks.com/science-vs-myth/everyday-myths/question730.htm>`_.
+This may mean that you get stuck in the elevator shaft, but it is assumed that
+this will only be an inconvenience, not dangerous. However, if being in the
+building is itself dangerous, the "fail safe" itself becomes dangerous - which
+is one reason you should never take an elevator in the event of fire or
+earthquakes. You have to know what the greatest danger is to know what "safe"
+is.
+
 In general, it is helpful to think of "risk" = "likelihood" × "severity (of
-consequences)". We'll look at these below:
+consequences)". We'll look at these below.
+
 
 Likelihood
 ~~~~~~~~~~
@@ -888,9 +862,10 @@ simply not easily "monetisable" by any attacker:
   policies applied) very small in volume.
 
 * The criminal record information we store could potentially be attractive to an
-  attacker for the purposes of blackmail or something, but what we store is very
-  small in volume, and also mostly inaccessible online (``STATUS:TODO`` confirm
-  what we do actually store and how).
+  attacker for the purposes of blackmail or something similar, but what we store
+  is very small in volume, and extremely limited in nature. In most cases we
+  don't store any details of DBS results at all, and have copies of DBS only for
+  very limited periods of time.
 
 Our main attack vectors are:
 
@@ -902,7 +877,8 @@ Our main attack vectors are:
   anonymised) means there are few disincentives.
 
 * phishing attacks: people trying to gain access to CCiW by "social engineering"
-  attacks on CCiW volunteers (emails that trick you into giving a password).
+  attacks on CCiW volunteers (e.g. emails that trick you into giving a
+  password).
 
   Probability: low - these attacks are usually targeted, and we are unlikely to
   be a target.
@@ -952,6 +928,16 @@ which I think include the following, in order of decreasing severity:
   hospital. The results could be serious health consequences or even loss of
   life.
 
+* Leaking of camper contact information to the public alongside visually
+  identifying photos.
+
+  The issue here is that we could show photos of campers alongside leaking of
+  names and/or addresses. For children who are adopted, this is potentially a
+  serious issue, because in some case biological parents are not told who the
+  adoptive parents are, where they live or what their new surnames are, in order
+  to protect the children. There are potentially serious consequences for
+  children's physical and emotional safety here.
+
 * Leaking of officer information regarding criminal convictions, or other issues
   that are mentioned on their application form. This has the primary consequence
   of loss of personal reputation, which could have serious consequences for
@@ -967,22 +953,16 @@ which I think include the following, in order of decreasing severity:
     finds another camper's contact information and uses it to harass them after
     camp.
 
+
 The risks above, with both likelihood and severity, should help inform our
 policies and how we balance different responsibilities.
 
-Another way to think about some of these issues is in terms of "fail safe"
-behaviour. To establish what "fail safe" is requires you first to have worked
-out what your greatest risks are.
+----
 
-For example, elevators are usually created with fail safe break mechanisms so
-that if cables snap, or power fails, the `breaks come on
-<https://science.howstuffworks.com/science-vs-myth/everyday-myths/question730.htm>`_.
-This may mean that you get stuck in the elevator shaft, but it is assumed that
-this will only be an inconvenience, not dangerous. However, if being in the
-building is itself dangerous, the "fail safe" itself becomes dangerous - which
-is one reason you should never take an elevator in the event of fire or
-earthquakes. You have to know what the greatest danger is to know what "safe"
-is.
+You're about half way through this document - well done! Time for a cup of tea
+and a chocolate digestive...
+
+----
 
 Camper data on camp
 ~~~~~~~~~~~~~~~~~~~
@@ -1002,8 +982,8 @@ They should not be left in camper tents or officer bags overnight - they should
 be kept physically with the officers and returned to the safe place when
 finished with for the day. Campers should not be told the location.
 
-Instructions for use of these forms will be downloaded and printed out with the
-forms (as a cover sheet).
+Instructions for use of these forms will be included in the downloaded file as a
+cover sheet, and printed out with the forms.
 
 Electronic devices for medical info?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1021,8 +1001,8 @@ attacks/flaws:
 
 * accidental breakage - e.g. from water damage or rough treatment on camp.
   (Paper is also easily damaged by water, but it is also much easier to protect
-  with simple waterproof envelopes, and many, many times cheaper to bring or
-  make extra copies.)
+  with simple waterproof envelopes, and it is many, many times cheaper to bring
+  or make extra copies.)
 
 For these reasons, I would strongly recommend against relying on any electronic
 devices for access to medical data while on camp - paper is a fantastic
@@ -1039,12 +1019,14 @@ codes. Since medical emergencies can happen at any point, and sometimes time is
 of the essence, in my opinion this would introduce an unacceptable risk.
 
 To put it another way, the "fail safe" mode of a safe is wrong for our use case
-(see above). Safe designers assume the contents must not be stolen, but you
-wouldn't normally need to get at the contents in a big hurry; therefore, it is
-best to lock you out in the case of electronic failure. But this is no good for
-us - if a leak in the tent causes water to pour over the electronics, the fail
-safe mechanism will cause the medical forms to get locked inside, when our
-biggest danger is not having access to the medical information.
+(see above). Safe designers assume 1) the contents must not be stolen, but 2)
+you wouldn't normally need to get at the contents in a big hurry; therefore, it
+is best to lock you out in the case of electronic failure. But this is no good
+for us - if a leak in the tent causes water to pour over the electronics, the
+fail safe mechanism will cause the medical forms to get locked inside, when our
+biggest danger is not having access to the medical information. "Accidental
+loss" is something the GDPR explicitly requires us to protect against (Article
+5, 1.f).
 
 
 Data Protection Officer
@@ -1058,8 +1040,10 @@ Data Protection Officer
   Under the GDPR, you must appoint a DPO if:
 
   * you are a public authority or body (except for courts acting in their judicial capacity);
-  * your core activities require large scale, regular and systematic monitoring of individuals (for example, online behaviour tracking); or
-  * your core activities consist of large scale processing of special categories of data or data relating to criminal convictions and offences.
+  * your core activities require large scale, regular and systematic monitoring
+    of individuals (for example, online behaviour tracking); or
+  * your core activities consist of large scale processing of special categories
+    of data or data relating to criminal convictions and offences.
 
   The closest we get is point 3 (due to health information and criminal records
   information), but it is certainly not a "core activity" (see `What is a core
@@ -1092,20 +1076,38 @@ Data Protection Officer
       result in data protection taking a secondary role to business interests.
 
   That probably rules out most people already involved in CCiW. We could
-  possibly pay someone externally, but most likely don't have the funds.
+  possibly pay someone external, but most likely don't have the funds.
 
 Use of email
 ~~~~~~~~~~~~
 
-* We will not email sensitive data:
+Email in general is hard to secure properly. These days, email is generally sent
+over encrypted connections, like most internet traffic, so we don't need to
+worry very much about general internet snooping. The issues, however, are:
+
+* 3rd parties (e.g. your email provider) have unencrypted copies of the data.
+
+* It is not easy to apply data retention policies to email storage - it involves
+  manually searching for emails, which is error prone.
+
+* Our security ends up depending on the security of people's email password,
+  which may be less than ideal.
+
+So I recommend:
+
+* We avoid using email to send sensitive data:
 
   * ``STATUS:DONE`` - several years ago we switched from emailing application
     forms and references to instead sending email notifications and allowing
     them to be viewed online.
 
-* We should not use "@cciw.co.uk" email **accounts** (using a provider like
-  Google or Microsoft 365). We have to take into account what will actually
-  happen:
+  * ``STATUS:TODO`` - our DBS processes do involve sending some sensitive data
+    over email. Our DBS Officers are careful to delete the data, but we should
+    look at improving our processes here in the future.
+
+* Where we do use email, we should use personal email accounts, and we should
+  not use "@cciw.co.uk" email **accounts** (using a provider like Google or
+  Microsoft 365). We have to take into account what will actually happen:
 
   * CCiW volunteers will forget to check these accounts - they are *unpaid
     volunteers*, not full time workers, and have to be treated as such, and for
@@ -1129,14 +1131,20 @@ Use of email
     processes that assumed we have secure @cciw.co.uk accounts that we could
     send sensitive data to.
 
-  The few @cciw.co.uk email addresses we have at the moment are simply
+  In addition we should note that having separate ``@cciw.co.uk`` accounts
+  doesn't actually make these accounts much easier to manage or apply
+  appropriate data retention policies to. Users of ``@cciw.co.uk`` accounts will
+  likely use them from all the same personal devices that they use their personal email
+  addresses. So these accounts will probably be just as susceptible to hacking
+  or illegitimate access.
+
+  The few ``@cciw.co.uk`` email addresses we have at the moment are simply
   "forwarding addresses" which redirect to personal email accounts, and I
   recommend we continue to do this. We will design processes and practices that
   do not involve sending sensitive data by email as far as possible.
 
-  (``STATUS:DONE`` This is already current practice on the website and has been
-  for several years. We may need to tighten some things regarding telling
-  leaders what they can and can't do with lists of camper data etc.)
+``STATUS:TODO`` We need to tighten some things regarding telling leaders what
+they can and can't do with lists of camper data etc.
 
 
 Online authentication systems and passwords
@@ -1150,13 +1158,11 @@ Online authentication systems and passwords
   While the data CCiW holds is sensitive, we are relatively low risk in terms of
   expecting cyber attacks, as noted above.
 
-  Therefore, we have adopted the following minimum levels:
+  Therefore, we have adopted the following minimum levels for access to
+  www.cciw.co.uk:
 
   * General CCiW staff authenticating to the CCiW website: Authenticator
     Assurance Level 1 (see NIST document)
-
-  * Webmaster authentication to systems that give access to the site:
-    Authenticator Assurance Level 1 (see NIST document)
 
   * Campers/bookers: a level equivalent to AAL1, but implemented using a
     password-less system which improves security and user experience, as
@@ -1182,43 +1188,196 @@ Online authentication systems and passwords
 
       (We cannot check existing passwords meet criteria, because we don't know
       what they are - as per best practices, we don't store passwords but only
-      password hashes. So we can only check on next login).
+      password "hashes". So we can only check on next login).
 
 Data Protection Impact Assessment (DPIA)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We need to do this in some form for all the data we hold and use.
+Do we actually need to do a DPIA?
 
-See https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/data-protection-impact-assessments-dpias/what-is-a-dpia/
+Article 35 talks about it, and my initial reading was that it didn't apply to
+us. Is a DPIA needed for any "processing" (i.e. use or storage of personal
+data)?
 
-For data held in the website database, it might be appropriate to combine this
-with the data retention policy - this details every piece of information we
-store, and we can at the same time document the need for this information. We
-can also have that document be checked for exhaustiveness automatically, as part
-of the website software test suite, so that any new fields added to the database
-are brought to our attention for checking.
+The `ICO has a helpful page on this
+<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/data-protection-impact-assessments-dpias/what-is-a-dpia/>`_,
+which says, very clearly, "Yes":
 
-It may help to have a separate document that details the decisions and risk
-factors we think for different types of processing, similar to the DPIA
-templates on ICO.
+    Conducting a DPIA is a legal requirement for any type of processing
 
-We need to also do this as part of documenting processes for DBS officer and
-booking secretary.
+For further information, it links to `a publication by the "European Data
+Protection Board"
+<https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=611236>`_ which
+says, in fairly painstaking detail, "No":
+
+    A DPIA is only required when the processing is “likely to result in a high
+    risk to the rights and freedoms of natural persons”
+
+    …carrying out a DPIA is not mandatory for every processing operation…
+
+So, now that we have cleared that up, let's do a DPIA! Because they're so much
+fun!
+
+As I attempted to do one, using the ICO's template, it became very clear that we
+really don't fall into the "high risk" category that would require one. I
+eventually found another ICO document `Data Protection by design and default
+<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-by-design-and-default/#dpd10>`_,
+which says:
+
+    However, a DPIA is only required in certain circumstances, such as where the
+    processing is likely to result in a risk to rights and freedoms, though it
+    is good practice to undertake a DPIA anyway.
+
+So, given the amount of work involved, and the fact that you are already bored
+out of your skulls with this subject, my recommendation is that we first agree
+the other things in the set of documents complete so far. We can then, at our
+leisure, complete a DPIA. It will mainly contain things already discussed here,
+but the formal DPIA structure is an easy way for us to show that we are being
+compliant.
 
 
 Data retention etc.
 ~~~~~~~~~~~~~~~~~~~
 
-* ``STATUS:DONE`` Removed some unneeded data in officer application form
-  (employment history)
+For a lot of the data we store, we can apply fairly simple data retention
+policies that means we won't be storing sensitive data long term. As a
+convenience for campers, we currently store past booking form information, which
+makes filling in the next year's information much easier. I recommend that we
+keep this feature. For users who do not want that behaviour, they can "opt out"
+of it by the normal processes where they can request deletion of personal data.
 
-* ``STATUS:TODO`` Retention Policy
+So I recommend that we keep most booking form data for a maximum of 5 years.
+After a gap of 5 years I think it is much less likely that a camper/booker will
+want to resume attendance and will benefit from us storing that information.
 
-  - write it down as a machine readable document in the CCiW source code
-  - implement it in terms of wiping data from CCiW database
+The details of what I'm recommending for data retention are in the separate data
+retention policy. However, there are some points that need more discussion:
+
+Long term data retention
+++++++++++++++++++++++++
+
+As much as possible, we don't want to be storing details of campers or officers
+long term, because there is no need or little benefit.
+
+However, for our work there are some other important considerations.
+
+**Abuse**: We make every effort to avoid any possibility of abuse of campers on
+camp, but we understand that these efforts can fail. Abuse could happen on camp,
+and whether it happens or not we are open to allegations. Such allegations (true
+or false) could come out a long time later. The recent case of `Ben Thomas
+<https://www.bbc.com/news/uk-wales-53110602>`_ highlights this possibility very
+starkly.
+
+In such situations, we have a need and right to defend ourselves against
+accusations, and this is recognised by the GDPR, including when processing
+"special categories of data" (see `Article 9
+<https://gdpr-info.eu/art-9-gdpr/>`_ item f). This right is again mentioned as
+something that can override "right to erasure" (see `Article 17
+<https://gdpr-info.eu/art-17-gdpr/>`_, paragraph 3.e.).
+
+In the UK we have statute of limitations for civil cases, but not for most
+criminal offences. Even for civil cases, there are `lots of exceptions that
+could apply to the kind of situations we face
+<https://allaboutuklaw.co.uk/statute-of-limitations/>`_, so it's is hard to
+define a definite time limit. For all these reasons, I think we have to assume
+that there is no limit to when we may need to defend ourselves legally.
+
+For cases involving abuse, there are some things we want to be able to
+demonstrate from our records:
+
+* If a specific camper was present or absent on a specific camp. This requires
+  keeping a complete list of names of all campers on a camp, with the name of
+  the parent/guardian (to help disambiguate people with the same name).
+
+* If a specific officer was present or absent on a specific camp. This requires
+  us to keep the list of officers for each camp.
+
+* That we have properly applied our vetting processes. This requires us to keep:
+
+  * almost all application form information (with the exception of an officer's
+    current address, which is usually not needed after camp is finished)
+  * all references
+  * information about our DBS checks (which contains no details of actual results)
+  * our documentation regarding decisions to accept an officer on camp despite
+    criminal records (see the "DBS responsibilities for Chairperson and CPO"
+    section in `02 Amendments to CCiW handbook.rst
+    <02%20Amendments%20to%20manual.rst>`_).
+
+  This should help demonstrate our good order.
+
+  It is also possible that it will actually demonstrate a failure to vet
+  properly - for instance, if a reference expressed concern that the officer was
+  not suitable, but we went ahead and let them on camp anyway, this could
+  potentially incriminate us. However, in such circumstances as Christians we
+  should prefer honesty and transparency to protecting our own interests. It is
+  in the public interest that we can be held to account for our behaviour, and
+  if there have been failings in our own organisation, we should be the first to
+  want to admit and expose them. Ephesians 5:11.
+
+To sum up, we want to keep enough information both to defend ourselves and to
+cooperate as fully as we can with law enforcement investigations and legitimate
+cases against us.
+
+**Negligence**: Another consideration is being sued for negligence. One way this
+could come about is if we fail to properly account for the medical/dietary needs
+of campers, or are accused of doing so.
+
+This situation could easily come up if a parent fails to inform us of a medical
+condition, but believes/claims that they did inform us. To counter this
+situation, we need to be able to keep our records of the medical/dietary details
+communicated to us by the parents.
+
+These are the reasons behind my recommendation that we keep certain data
+"forever", and that these reason overrides both our normal policy of not keeping
+data long term, and the data subjects "right to erasure", as per `Article 17
+<https://gdpr-info.eu/art-17-gdpr/>`_, paragraph 3.
+
+``QUESTION`` I think we would be helped by getting advice to confirm that these
+recommendations are sound for us, both in terms of our legal defence needs and
+in terms of compliance with GDPR.
+
+``QUESTION`` Are there other situations we need to cover ourselves for that
+require us keeping other additional data?
+
+Retention Policy actions:
+
+* Remove some unneeded data in officer application form (employment history)
+  ``STATUS:DONE``
+- Write down the policy as a machine-and-human-readable document in the CCiW source code
+  ``STATUS:DONE`` - https://gitlab.com/cciw/cciw.co.uk/-/blob/master/config/data_retention.yaml
+- Ensure it is automatically checked for completeness ``STATUS:DONE`` in
+  `1337fa4373b9ec80eb7cabbbe24edd4fab5417c2
+  <https://gitlab.com/cciw/cciw.co.uk/-/commit/1337fa4373b9ec80eb7cabbbe24edd4fab5417c2>`_.
+- Implement it in terms of wiping data from the CCiW database automatically
+  ``STATUS:TODO``
+- Implement "right to erasure" processes that respect the same data retention
+  policy ``STATUS:TODO``
+- Put information about "right to erasure" on website ``STATUS:TODO``
 
 
-https://allaboutuklaw.co.uk/statute-of-limitations/
+Privacy notice
+~~~~~~~~~~~~~~
+
+We need to add a privacy notice to the website, as per
+https://ico.org.uk/for-organisations/in-your-sector/charity/charities-faqs/
+
+We should have:
+
+- A section for campers/parents
+- A section for officers
+
+I think this can be very short, because it mainly says:
+
+- we do not share any data with 3rd parties
+- we collect only the necessary data for providing camp activities, namely:
+
+  - contact data for people coming on camp
+  - health information so we can look after campers while on camp.
+  - criminal records/references/etc. to ensure camper safety
+
+- where necessary for legal defence and other purposes, we keep some of
+  this data forever. Other personal data is removed normally after 5 years,
+  and sooner if requested, which you can do <here>.
 
 
 Data breaches
@@ -1235,81 +1394,32 @@ https://docs.google.com/document/d/1KFTIin9xxb0aN9lXtKRLk5q6aEw0DXOmCHamNT7s5Sw/
 
 We need to add simple processes to relevant manuals, especially:
 
-* Leaders
-* Webmaster
-* Booking secretary
-* DBS Officer
-
-``STATUS:TODO``
-
-
-Legal defence considerations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-As much as possible, we don't want to be storing details of criminal records,
-due to the privacy concerns.
-
-However, we also need to remember that abuse could happen on camp, and whether
-it happens or not we are open to allegations. Such allegations could come out a
-long time later.
-
-In such situation, we have a need and right to defend ourselves against
-accusations, and this is recognised by the GDPR (see Article 9 item f).
-
-For this reasons, I'm recommending that the following information should be kept
-essentially forever, overriding the "right to erasure" and other concerns (in
-accordance with the exception made in GDPR Article 17 paragraph 3.e.)
-
-* List of names of all campers on camp, with the name of the parent/guardian.
-  The purpose here is to be able to identify a complete list of campers present
-  on a camp.
-
-* Records of DBS checks we've made:
-
-  * The records stored in the CCiW website, which actually store no information
-    about criminal convictions, just a decision.
-
-  * The separate document that we keep detailing cases where we had to make a
-    decision for officers who had criminal convictions - see the section in `02
-    Amendments to CCiW handbook.rst <02%20Amendments%20to%20manual.rst>`_
+* Leaders  ``STATUS:TODO``
+* Webmaster  ``STATUS:TODO``
+* Booking secretary  ``STATUS:TODO``
+* DBS Officer  ``STATUS:DONE``
 
 
 
 Security tightening and consolidation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* New AWS account for CCiW, instead of my personal one, with documented
-  setup procedures  ``STATUS:DONE``
+* New AWS account for CCiW, instead of my personal one, with documented setup
+  procedures ``STATUS:DONE``
 
   - use for AWS S3 backups ``STATUS:DONE``
   - recreate AWS SES config (email) using new account ``STATUS:DONE``
-  - move everything off Mailgun ``STATUS:DONE``
+  - move all mail handing off Mailgun ``STATUS:DONE`` - completed in
+    `88a68b294953d59b0158df96ba186c875a0db03b
+    <https://gitlab.com/cciw/cciw.co.uk/-/commit/88a68b294953d59b0158df96ba186c875a0db03b>`_
 
 
 Uncategorised
 ~~~~~~~~~~~~~
 
-* ``STATUS:TODO`` - Add privacy notice to website
-
-  https://ico.org.uk/for-organisations/in-your-sector/charity/charities-faqs/
-
-  - One for officers
-  - One for campers/parents
-
-  Can be very short, because it mainly says:
-
-  - we do not share any data with 3rd parties
-  - we collect only the necessary data for providing camp activities, namely:
-
-    - contact data for people coming on camp
-    - health information so we can look after campers while on camp.
-    - criminal records/references/etc. to ensure camper safety
-
-* ``STATUS:TODO`` Register with ICO?
-
 * ``STATUS:TODO`` Create "Appropriate Policy Document" (for health and criminal records data)
 
-* ``STATUS:TODO`` Contact Becky about her DBS processes
+* ``STATUS:DONE`` Contact Becky about her DBS processes
 
 * ``STATUS:TODO`` Find out rules for privacy breach, add to relevant manuals
 
@@ -1321,8 +1431,14 @@ Uncategorised
 
 * Review ``STATUS:TODO`` items in website security document
 
-* Move source code to GitLab, and correct in source code and other
-  documents. This makes it easy for people to see our source code, including
-  data retention policy.  ``STATUS:DONE``
+* Move source code to GitLab, and correct in source code and other documents.
+  This makes it easy for people to see our source code, including data retention
+  policy. ``STATUS:DONE``
 
 * ``STATUS:TODO`` Decide policy on external storage devices
+
+* ``STATUS:TODO`` For each section of booking form and officer application form,
+  include something saying what we need/use the information for.
+
+* ``STATUS:TODO`` Provide a way for campers/bookers/officers to download all
+  their data on the website.

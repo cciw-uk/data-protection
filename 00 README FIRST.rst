@@ -46,13 +46,16 @@ The deliverables I'm including are:
   I will include a copy of the most recent version when submitting this
   work to the committee.
 
-  TODO add a significant data protection section to this.
-
-
 * `04 DBS Officer Manual <04%20DBS%20Officer%20Manual.rst>`_
 
+  Once accepted, this document should be reformatted (I can do this) and added
+  to the CCiW Handbook documents.
+
 * `05 Booking Secretary Manual <05%20Booking%20Secretary%20Manual.rst>`_
-  
+
+  Once accepted, this document should be reformatted (I can do this) and added
+  to the CCiW Handbook documents.
+
 * 06 CCiW Website access information
 
   The link is:
@@ -61,23 +64,28 @@ The deliverables I'm including are:
   This document is distinct from the previous one to allow it to include private
   information that shouldn't be a part of our public source code.
 
-  It should be visible only to committee members, let me know if you can't access it.
-  A copy of the most recent version is included. The document has been around a while but
-  has been updated and completed as part of this work.
+  It should be visible only to committee members, let me know if you can't
+  access it. The document has been around a while but has been updated and
+  completed as part of this work.
 
   I will include a copy of the most recent version when submitting this
   work to the committee.
 
-* 07 Data retention policy
+* `07 Data Protection Impact Assessment
+
+  This is Word document that most probably should be put into the CCiW Google
+  Drive folder, once accepted. Current state is it is an early draft.
+
+* 08 Data retention policy
 
   STATUS:TODO
 
-* 08 Appropriate Policy Document
+* 09 Appropriate Policy Document
 
   STATUS:TODO
 
-* 09 Privacy notice
+* 10 Privacy notice
 
   https://ico.org.uk/for-organisations/make-your-own-privacy-notice/
-  
+
   STATUS:TODO
