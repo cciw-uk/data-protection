@@ -5,7 +5,6 @@ GDPR work overview and approach
 This page is an overview of all the work I've done to ensure that we are in line
 with GDPR/data protection laws.
 
-
 The deliverables I'm including are:
 
 * `Decisions and actions document <Decisions%20and%20actions%20document.rst>`_
@@ -19,9 +18,7 @@ The deliverables I'm including are:
   It's a very long document, sorry! But I've tried to keep it fairly readable.
 
   I'm anticipating that there will be lots of places you want to amend things,
-  feel free to change the document into any format that suits you to do this.
-  Google Docs might work well (my internet connection was too bad for this
-  when drafting it).
+  feel free to change feed back in any format that makes sense to you.
 
 * `Amendments to manual <Amendments%20to%20manual.rst>`_
 
@@ -45,12 +42,10 @@ The deliverables I'm including are:
   Once accepted, this document should be reformatted (I can do this) and added
   to the "CCiW Handbook" documents.
 
-* `Booking Secretary Manual <Booking%20Secretary%20Manual.rst>`_
+* Booking Secretary Manual.
 
-  ``STATUS:TODO`` - I haven't been able to do this yet!
-
-  Once accepted, this document should be reformatted (I can do this) and added
-  to the "CCiW Handbook" documents.
+  **TODO** - I haven't been able to look at this yet. Rebecca has done a draft
+  which I haven't looked at yet.
 
 * CCiW Website access information
 
@@ -71,13 +66,14 @@ The deliverables I'm including are:
 
 * Appropriate Policy Document
 
-  ``STATUS:TODO``
+  **TODO**
 
 * Privacy notice
 
-  https://ico.org.uk/for-organisations/make-your-own-privacy-notice/
+  **TODO**  I haven't had time to complete this, there is an outline in the
+  "Decisions and actions document"
 
-  ``STATUS:TODO``
+  https://ico.org.uk/for-organisations/make-your-own-privacy-notice/
 
 
 For external documents I'll include a snapshot of the most recent version when

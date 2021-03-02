@@ -10,7 +10,7 @@ Any significant changes to this document need approval by the CCiW Committee.
 Responsibilities
 ----------------
 
-The DBS Officer(s) are responsible for:
+As a DBS Officer, you are responsible for:
 
 * Checking that officers who come on camp have had a DBS check done recently (in
   the past 3 years).
@@ -70,7 +70,7 @@ The DBS Officer's job starts by logging on to the CCiW website:
 
   https://www.cciw.co.uk/officers/
 
-They then use the links provided to navigate to the 'Manage DBS' page. The page
+You then use the links provided to navigate to the 'Manage DBS' page. The page
 lists all the officers who have been added to camp officer lists, with their
 status, which can be:
 
@@ -86,10 +86,9 @@ status, which can be:
 
 For 3 and 4, the DBS Officer needs to take action to obtain a DBS check.
 
-If we have no details of previous DBS checks, the DBS Officer will first email
+If we have no details of previous DBS checks, you should first email
 the officer to see if there is a recent DBS check from another organisation that
-can be used. If there is not, and a new DBS check is needed, the DBS Officer
-will:
+can be used. If there is not, and a new DBS check is needed, you should:
 
 * Send an email to our "checking organisation" asking for a DBS form
   using the "Ask <CHECKING ORG> to send DBS form..." button **OR**
@@ -98,34 +97,34 @@ will:
   and register this on the website using "Mark DBS form sent".
 
 Once a DBS check is complete, the results are sent back to the officer (not
-CCiW). The DBS Officer will communicate with the officer and arrange to see a
-copy, usually by a photograph sent over email. This will apply for all new DBS
-checks that CCiW organise, and for DBS checks done for another organisation that
-we have not yet seen.
+CCiW). You should then communicate with the officer and arrange to see a copy,
+usually by a photograph sent over email. This will apply for all new DBS checks
+that CCiW organise, and for DBS checks done for another organisation that we
+have not yet seen.
 
 For the situation where the officer has a DBS check registered with the online
 update system provided by the UK government, instead of getting a new DBS check
-done, the DBS Officer will use the update system to check if there have been any
+done, you should use the update system to check if there have been any
 additions.
 
 Having obtained the DBS results (whether a copy of the initial certificate, or
-updates via the update service), the DBS Officer must make a decision about the
+updates via the update service), you must must make a decision about the
 contents.
 
 If there are any items in the results that could affect the suitability of the
-applicant to be an officer on camp, the DBS Officer will talk to the CCiW
-Chairperson and the CCiW Child Protection Officer, preferably by phone. It will
-be the responsibility of those people, not the DBS Officer, to record the
-details of the decision made, if appropriate (see committee's manual).
+applicant to be an officer on camp, you must talk to the CCiW Chairperson and
+the CCiW Child Protection Officer, preferably by phone. It will be the
+responsibility of those people, not yours, to record the details of the decision
+made, if appropriate (see committee's manual).
 
-(STATUS:QUESTION - do the CCiW committee have guidance regarding the types of
+(**QUESTION** - do the CCiW committee have guidance regarding the types of
 criminal convictions that need checking with them? I presume almost any
 conviction that a DBS would list would need checking with the committee? As I
 understand it, minor traffic offences won't show in a DBS, but major ones would,
 like drink driving, and I presume we would care about that.)
 
-The DBS Officer then records the details of the DBS certificate on the CCiW
-website, including the following information:
+You should then record the details of the DBS certificate on the CCiW website,
+including the following information:
 
 * Disclosure number
 * Check type ("full form" or "online check")
@@ -140,27 +139,32 @@ Handling sensitive data
 Some parts of this process currently involve sending emails from a personal
 address, or other communication using digital devices or in the post. Since we
 are handling sensitive personal information (addresses and information about
-criminal records), the DBS officer must be careful to observe the following
-points:
+criminal records), you must be careful to observe the following points:
+
+* Choose long, secure passwords for accessing the CCiW website and other online
+  services you use.
+
+* Take appropriate measures should be taken to ensure that other people who
+  might have access to your computer/device do not use your CCiW account, asking
+  the CCiW webmaster for help as needed.
 
 * Once emails/files/photographs are no longer needed, they must be deleted. This
   includes any received emails that contain officer information, and any copies
   of sent emails (in your "Outbox" or "Sent mail").
 
-* Paper notes or additional computer files may be used to help organise work.
-  However, where the notes contain sensitive information (officer addresses or
-  details about criminal records):
+* Paper notes or additional computer files may be used to help organise your
+  work. However, where the notes contain sensitive information (officer
+  addresses or details about criminal records):
 
-  * The DBS officer should take care to ensure that no one else accesses this
-    information.
+  * You should take care to ensure that no one else accesses this information.
 
-  * The paper/computer files must be destroyed (or the sensitive information
-    removed) once it is no longer needed for the purpose of checking the DBS,
-    and must not be kept permanently anywhere outside official CCiW filing
+  * You should destroy the paper/computer files (or remove the sensitive
+    information) once it is no longer needed for the purpose of checking the
+    DBS, and must not be kept permanently anywhere outside official CCiW filing
     systems and databases.
 
-* The DBS Officer should liaise with the CCiW webmaster to improve processes so
-  that as far as possible they do not need to store sensitive information.
+* You should liaise with the CCiW webmaster to improve processes so that as far
+  as possible they do not need to store sensitive information.
 
 * No information about the contents of CRB results should be communicated to
   other people not mentioned in this manual, except where required by law.
@@ -176,14 +180,14 @@ For a DBS Officer, a breach could occur if, for example, someone else accessed
 the information on a computer or phone, or if information was mistakenly
 forwarded to the wrong person.
 
-In the event of a data breach, the DBS Officer must:
+In the event of a data breach, you must:
 
 * attempt to contain the breach if possible - for example, by contacting the
   person to whom the information was wrongly passed on and asking them to erase
   it and not pass it on further.
 
-* inform the CCiW webmaster and the CCiW chairperson about the breach, who will
-  together decide if further action needs to be taken.
+* inform the CCiW webmaster and the CCiW chairperson about the breach as soon as
+  you can, who will together decide if further action needs to be taken.
 
 Fallbacks
 ---------
@@ -195,9 +199,9 @@ website.
 
 The following points should be observed:
 
-* The DBS officer should alert the CCiW web master to the problem so that it can
-  be fixed, and so that the security of any fallback mechanisms can be assessed.
+* You should alert the CCiW web master to the problem so that it can be fixed,
+  and so that the security of any fallback mechanisms can be assessed.
 
-* The DBS officer may fall back to using manual emails in the place of automated
-  ones, using their own email address, providing the points about handling
-  sensitive data (above) are observed.
+* You may fall back to using manual emails in the place of automated ones, using
+  you own email address, providing the points about handling sensitive data
+  (above) are observed.

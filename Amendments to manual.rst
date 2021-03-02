@@ -25,8 +25,23 @@ main responsibilities we need to be aware of are as follows:
 * We should collect only the personal data that we need to do our job, and keep
   it only as long as we need to.
 
-* We must use this data only for the agreed purposes for which we've collected
-  it.
+* To describe "doing our job" more specifically and technically, we must have a
+  `lawful basis <https://gdpr-info.eu/art-6-gdpr/>`_ for any "processing" of
+  personal data (which means doing anything with data, including storing). For
+  our purposes, the main ones are:
+
+  - contractual obligation (covers ways in which we must use campers data
+    because we have agreed to provide certain services to them)
+  - legal obligation (covers ways we must use camper and officers data
+    as part of legal duties to look after campers etc.)
+  - legitimate interest (covers some business interests like the right to
+    pursue payment and to advertise to people who came on camp previously)
+  - consent (we've specifically asked them if we can use data in a certain way)
+  - vital interest (protecting someone's life - this reason can be used
+    as a last resort)
+
+* We must keep and use this data only for the agreed purposes for which we've
+  collected it (as set out in detail in the ROPA **TODO**).
 
 * We should not pass the data on to third parties, or allow non-authorised
   people to access it.
@@ -35,8 +50,12 @@ main responsibilities we need to be aware of are as follows:
   information about past criminal records that are part of the officer
   application process.
 
-* We must report data breaches to ICO and the "data subjects" (the people the
-  information is about) in certain circumstances.
+* We must respect a set of rights of the "data subjects" (the people the
+  information is about), including the right to access the information and the
+  right to erasure.
+
+* We must report data breaches to ICO and the data subjects in certain
+  circumstances.
 
 In all of these things, we need to take into account our other responsibilities,
 and ensure the primacy of the well-being of campers that we look after.
@@ -56,7 +75,7 @@ detailed in other places:
 
 * Leaders: "Guidance for Leaders and Chaplains"
 
-* Booking secretary: ``STATUS:TODO``
+* Booking secretary: **TODO**
 
 * DBS Officer: `DBS Officer Manual <DBS%20Officer%20Manual.rst>`_
 
@@ -79,15 +98,15 @@ being part of the website database.
 
 ----
 
-We will need a new section about CCiW Chairperson and CPO's responsibilities as
-follows. I'm not sure where this should live.
-
 From what I've gathered, we do not have a documented process for what happens
 when a DBS result actually shows criminal convictions, possibly because the
-situation hasn't actually occurred before. I've therefore drawn up a draft of
-what I thought it should be.
+situation hasn't actually occurred before.
 
-``STATUS:QUESTION`` This is one of the most sensitive parts of our processes,
+I've therefore drawn up a draft of what I thought it should be. I'm not sure
+where it should live - it could be part of a document about CCiW Chairperson
+and/or CPO's responsibilities.
+
+**QUESTION** This is one of the most sensitive parts of our processes,
 and should be carefully reviewed. It may help us to get some expert advice on
 this. We need to carefully balance:
 
@@ -166,7 +185,8 @@ DBS Decision
 
 ----
 
-In "Guidance for Leaders and Chaplains":
+In "Guidance for Leaders and Chaplains"
+---------------------------------------
 
 
 In section "Leader's checklist", under "After camp", add:
@@ -187,12 +207,24 @@ under GDPR and other laws.
 
 In brief, this means:
 
+* You can and should use personal information for the purposes for which we've
+  collected it, which are, broadly speaking:
+
+  - looking after campers to the best of our ability on camp.
+  - ensuing suitability of officers and training them.
+  - enabling good communication between officers before, during and after camp
+    regarding camp needs.
+
+  And you may not use personal information for other purposes.
+
 * Ensure you have campers details, including medical information, when on camp.
   Pay special attention to the instructions on the cover sheet of the downloaded
   spreadsheet of camper data.
 
-* Don't copy sensitive officer data (like references) to your computer, and
-  do not email or pass on camper booking data at all.
+* Don't copy sensitive officer data (like references and the statement sections
+  of the application form) to your computer or print out hard
+
+* Do not email or pass on camper booking data at all.
 
 * You can appoint "admins" for your camp who can help with online tasks
   (like collecting references and downloading officer/camper lists). These people
@@ -203,8 +235,13 @@ In brief, this means:
   end of camp at the latest. You must not be store CCiW data on your devices
   long term.
 
+* Take appropriate measures should be taken to ensure that other people who
+  might have access to your computer/device do not use your CCiW account, asking
+  the CCiW webmaster for help as needed.
+
 * If you become aware of a "data breach" (data falling into the wrong hands in
-  whatever way), you need to contact the CCiW webmaster and/or the trustees.
+  whatever way), you need to contact the CCiW webmaster and/or the trustees
+  as soon as you can.
 
 * If you think this rules need changing or clarifying, please contact the CCiW
   webmaster and/or the trustees.
