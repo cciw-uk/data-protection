@@ -731,8 +731,8 @@ Some general points to understand the GDPR:
 * The GDPR requires us to have a "lawful basis" for keeping and using personal
   data. The most commonly talked about one is "consent", probably because that
   is the most visible - you get explicitly asked for your consent. However,
-  there `other bases <https://gdpr-info.eu/art-6-gdpr/>`_, several of which are
-  often more important to us - specifically "legitimate interest", "legal
+  there are `other bases <https://gdpr-info.eu/art-6-gdpr/>`_, several of which
+  are often more important to us - specifically "legitimate interest", "legal
   obligation", "contractual obligation", and "protecting vital interests".
 
   In many cases, we should focusing on these latter ones, because they are more
@@ -1013,9 +1013,9 @@ plus spares. This can easily be done from the downloaded booking forms (a few
 A4 sheets for the whole set).
 
 Once on camp, they should be stored in an officer-only part of the camp site,
-and all officers must know this location, be able to get the sheets from there.
-They should not be left in camper tents or officer bags overnight - they should
-be kept physically with the officers and returned to the safe place when
+and all officers must know this location and be able to get the sheets from
+there. They should not be left in camper tents or officer bags overnight - they
+should be kept physically with the officers and returned to the safe place when
 finished with for the day. Campers should not be told the location.
 
 Instructions for use of these forms will be included in the downloaded file as a
@@ -1029,11 +1029,11 @@ I recommend this text:
   information, that needs to be handled carefully. Please observe these points
   from the CCiW trustees:
 
-  * This spreadsheet must be stored on your device only as long as needed,
-    and must be deleted within 1 month of the end of camp at the latest.
+  * This spreadsheet must be stored on your computer/device only as long as
+    needed, and must be deleted within 1 month of the end of camp at the latest.
 
-  * This information must not be emailed or passed on to other officers. Talk
-    to the webmaster if you think you have a need to do this.
+  * This information must not be emailed or passed on to other officers. Contact
+    the webmaster if you think you have a need to do this.
 
   * We recommend that the medical information sheets are printed out and at
     least 20 complete copies are taken on camp. You need enough copies so that
@@ -1532,7 +1532,7 @@ require us keeping other additional data?
 
 Retention Policy actions:
 
-* Remove some unneeded data in officer application form (employment history)
+- Remove some unneeded data in officer application form (employment history)
   DONE
 - Write down the policy as a machine-and-human-readable document in the CCiW source code
   DONE - https://gitlab.com/cciw/cciw.co.uk/-/blob/master/config/data_retention.yaml
@@ -1561,7 +1561,7 @@ Officers and campers have a set of rights that we must respect:
 
   * "We will use this to contact you when the camper is on camp if necessary", or
   * "we will use this information to give appropriate medical care, passing on to medical
-  professionals as necessary and to no-one else".
+    professionals as necessary and to no-one else".
 
   with also a link to our privacy notice.
 
@@ -1572,15 +1572,18 @@ Officers and campers have a set of rights that we must respect:
   documents.
 
 - right to erasure - request via contact form
-  - this will be handled by CCiW webmaster, using semi-automated processes
-    that respect the exceptions described in our data retention policy.
+
+  This will be handled by CCiW webmaster, using semi-automated processes
+  that respect the exceptions described in our data retention policy.
 
 - right to rectification - request via contact form
-  - this will be handled by CCiW webmaster, using mostly manual processes
+
+  This will be handled by CCiW webmaster, using mostly manual processes
 
 - right to access information stored about them
-  - handled by a dedicated website functionality that allows download, in a format
-    that allows "portability" - **TODO**
+
+  Handled by a dedicated website functionality that allows download, in a format
+  that allows "portability" - **TODO**
 
 - right to complain to ICO
 
@@ -1714,3 +1717,9 @@ Uncategorised
 
 * **TODO** Send out automatic emails after camps reminding relevant people to
   delete data.
+
+* **TODO** Put my (webmaster) contact details (phone plus email) on the officer
+  part of the website somewhere, since I'm a point of contact for various things
+  and some instant responses will be much more helpful.
+
+  Also any other trustee details we think are important.
