@@ -40,7 +40,8 @@ The deliverables I'm including are:
 * `DBS Officer Manual <DBS%20Officer%20Manual.rst>`_
 
   Once accepted, this document should be reformatted (I can do this) and added
-  to the "CCiW Handbook" documents.
+  to the "CCiW Handbook" documents. It will replace the current
+  wiki document we have.
 
 * Booking Secretary Manual.
 
@@ -74,7 +75,6 @@ The deliverables I'm including are:
   "Decisions and actions document"
 
   https://ico.org.uk/for-organisations/make-your-own-privacy-notice/
-
 
 For external documents I'll include a snapshot of the most recent version when
 submitting this work to the committee.
