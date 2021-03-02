@@ -1243,7 +1243,8 @@ Some policies recommend the use of CCiW provided storage devices for storing
 personal data, possibly with encryption and password protection. This could be
 used, for example, for leaders who download camper booking data.
 
-My recommendation is that we don't do this, for the following reasons:
+My recommendation is that we allow it but don't recommend it, for the following
+reasons:
 
 * Using encrypted devices can be hard to do correctly, and quite awkward.
 
@@ -1302,6 +1303,35 @@ usage of systems.
 For example, I have already added some features to the website password system
 to find weak passwords and encourage people towards the use of better ones and
 using password managers etc.
+
+“Appropriate measures”
+~~~~~~~~~~~~~~~~~~~~~~
+
+In the manual drafts I've drawn up, I've used phrases like “you must take
+appropriate measures to ensure no-one else accesses this information” - for
+example in the DBS Officers manual regarding paper notes.
+
+I'm deliberately not specifying what those measures are, because:
+
+* In general the risks here are very low (as discussed above).
+* I don't know enough details about Becky's house etc. to know
+  what the risks are and what is appropriate.
+* For a different person the specifics might be different.
+* If we over-specify, we risk CCiW volunteers being open to blame for "not
+  following the process", even if what they actually did was fine.
+
+In essence I'm saying we trust these people to do their jobs, while making sure
+that they do know it is their job to look after security of their processes.
+This is similar in essence to how the GDPR works - there are lots of places
+where it says things like "processed in a manner that ensures appropriate
+security of the personal data" without specifying **how exactly**.
+
+Regarding computer security, for the webmasters' manual I've added a lot more
+detail, which is necessary because a lot more of our data is stored online, and
+it is much more open to general attacks via the internet, but there is always a
+limit to what you can specify - ultimately the webmaster has to know how to do
+their job, and the trustees have to trust them to do it.
+
 
 Online authentication systems and passwords
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
