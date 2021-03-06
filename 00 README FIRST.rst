@@ -51,7 +51,7 @@ The deliverables I'm including are:
 * CCiW Website access information
 
   The link is:
-  https://docs.google.com/document/d/1_Ox8wWfqA73vqN66yEQRSASuKxtrFkcftJa5oFytiPc/edit
+  https://docs.google.com/document/d/1bDdxj4RAto8avQWr4N8368ReKZ29eOaU/
 
   This document is distinct from the previous one to allow it to include private
   information that shouldn't be a part of our public source code.

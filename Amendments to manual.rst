@@ -75,9 +75,9 @@ detailed in other places:
 
 * Leaders: "Guidance for Leaders and Chaplains"
 
-* Booking secretary: **TODO**
+* Booking secretary: "Booking Secretary Manual"  **TODO**
 
-* DBS Officer: `DBS Officer Manual <DBS%20Officer%20Manual.rst>`_
+* DBS Officer: "DBS Officer Manual"
 
 The trustees will be responsible for answering any queries regarding use of
 personal data not covered in these manuals, and they will use resources

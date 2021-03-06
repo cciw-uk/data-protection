@@ -812,7 +812,7 @@ This is one of the major areas we need to be clear on: what personal data do we
 collect, for what purposes, and, specifically, on what "legal basis"?
 
 I think broadly speaking the answers are as follows (based on the categories of
-data Darren idenfitied)
+data Darren identified)
 
 1. we collect personal camper/parent data:
 
@@ -851,7 +851,7 @@ data Darren idenfitied)
    of legal obligation and contractual obligation - we need them to do our jobs.
 
 We need more detail than this (see later on regarding ROPA), but if we are
-agreed on the above that is a good start. 1 and 2 and the most difficult and
+agreed on the above that is a good start. 1 and 2 are the most difficult and
 almost all our effort will be there.
 
 QUESTION: What have I missed from above?
@@ -1691,7 +1691,7 @@ It is very likely that the number of such incidences will be very low, and we
 will manage this with a Google Docs document that the committee and webmasters
 have access to:
 
-https://docs.google.com/document/d/1KFTIin9xxb0aN9lXtKRLk5q6aEw0DXOmCHamNT7s5Sw/  **WIP**
+https://docs.google.com/document/d/1ZtxOahH7ywNTPd2kuTtScn7OUPA5mloa/ **WIP***
 
 We need to add simple processes to relevant manuals, especially:
 
@@ -1739,7 +1739,7 @@ Uncategorised
   This makes it easy for people to see our source code, including data retention
   policy. DONE
 
-* **TODO** Decide policy on external storage devices
+* Draft policy on external storage devices  DONE
 
 * **TODO** For each section of booking form and officer application form,
   include something saying what we need/use the information for. See `GDPR
